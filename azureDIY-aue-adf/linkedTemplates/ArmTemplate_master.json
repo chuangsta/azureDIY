@@ -19,6 +19,10 @@
 			"type": "string",
 			"defaultValue": "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/"
 		},
+		"OData_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://ghoapi.azureedge.net/api"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -54,6 +58,9 @@
 					},
 					"HttpServer_properties_typeProperties_url": {
 						"value": "[parameters('HttpServer_properties_typeProperties_url')]"
+					},
+					"OData_properties_typeProperties_url": {
+						"value": "[parameters('OData_properties_typeProperties_url')]"
 					}
 				}
 			},

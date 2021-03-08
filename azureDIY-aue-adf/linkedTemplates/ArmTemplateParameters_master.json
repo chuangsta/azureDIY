@@ -14,6 +14,9 @@
 		"HttpServer_properties_typeProperties_url": {
 			"value": "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/"
 		},
+		"OData_properties_typeProperties_url": {
+			"value": "https://ghoapi.azureedge.net/api"
+		},
 		"containerUri": {
 			"value": ""
 		},

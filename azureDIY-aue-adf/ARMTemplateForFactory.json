@@ -18,6 +18,10 @@
 		"HttpServer_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/"
+		},
+		"OData_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://ghoapi.azureedge.net/api"
 		}
 	},
 	"variables": {
@@ -238,6 +242,136 @@
 				"typeProperties": {
 					"url": "[parameters('HttpServer_properties_typeProperties_url')]",
 					"enableServerCertificateValidation": true,
+					"authenticationType": "Anonymous"
+				}
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/OData')]",
+			"type": "Microsoft.DataFactory/factories/pipelines",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"activities": [
+					{
+						"name": "Copy OData",
+						"type": "Copy",
+						"dependsOn": [],
+						"policy": {
+							"timeout": "7.00:00:00",
+							"retry": 0,
+							"retryIntervalInSeconds": 30,
+							"secureOutput": false,
+							"secureInput": false
+						},
+						"userProperties": [],
+						"typeProperties": {
+							"source": {
+								"type": "ODataSource",
+								"httpRequestTimeout": "00:05:00"
+							},
+							"sink": {
+								"type": "DelimitedTextSink",
+								"storeSettings": {
+									"type": "AzureBlobFSWriteSettings"
+								},
+								"formatSettings": {
+									"type": "DelimitedTextWriteSettings",
+									"quoteAllText": true,
+									"fileExtension": ".txt"
+								}
+							},
+							"enableStaging": false
+						},
+						"inputs": [
+							{
+								"referenceName": "ODataResource",
+								"type": "DatasetReference",
+								"parameters": {
+									"ODataPath": {
+										"value": "@pipeline().parameters.ODataPath",
+										"type": "Expression"
+									}
+								}
+							}
+						],
+						"outputs": [
+							{
+								"referenceName": "RawZoneDataSet",
+								"type": "DatasetReference",
+								"parameters": {
+									"zone": "raw",
+									"sourceName": {
+										"value": "@pipeline().parameters.SinkPath",
+										"type": "Expression"
+									},
+									"fileName": {
+										"value": "@pipeline().parameters.SinkName",
+										"type": "Expression"
+									}
+								}
+							}
+						]
+					}
+				],
+				"parameters": {
+					"ODataPath": {
+						"type": "string"
+					},
+					"SinkName": {
+						"type": "string"
+					},
+					"SinkPath": {
+						"type": "string"
+					}
+				},
+				"folder": {
+					"name": "Utilities"
+				},
+				"annotations": []
+			},
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/datasets/ODataResource')]",
+				"[concat(variables('factoryId'), '/datasets/RawZoneDataSet')]"
+			]
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/ODataResource')]",
+			"type": "Microsoft.DataFactory/factories/datasets",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"linkedServiceName": {
+					"referenceName": "OData",
+					"type": "LinkedServiceReference"
+				},
+				"parameters": {
+					"ODataPath": {
+						"type": "string"
+					}
+				},
+				"annotations": [],
+				"type": "ODataResource",
+				"schema": [],
+				"typeProperties": {
+					"path": {
+						"value": "@dataset().ODataPath",
+						"type": "Expression"
+					}
+				}
+			},
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/linkedServices/OData')]"
+			]
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/OData')]",
+			"type": "Microsoft.DataFactory/factories/linkedServices",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"annotations": [],
+				"type": "OData",
+				"typeProperties": {
+					"url": "[parameters('OData_properties_typeProperties_url')]",
 					"authenticationType": "Anonymous"
 				}
 			},
