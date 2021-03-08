@@ -1,0 +1,102 @@
+{
+	"name": "HTTP",
+	"properties": {
+		"activities": [
+			{
+				"name": "Copy HTTP Data",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "DelimitedTextSource",
+						"storeSettings": {
+							"type": "HttpReadSettings",
+							"requestMethod": "GET"
+						},
+						"formatSettings": {
+							"type": "DelimitedTextReadSettings"
+						}
+					},
+					"sink": {
+						"type": "DelimitedTextSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						},
+						"formatSettings": {
+							"type": "DelimitedTextWriteSettings",
+							"quoteAllText": true,
+							"fileExtension": ".txt"
+						}
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"typeConversion": true,
+						"typeConversionSettings": {
+							"allowDataTruncation": true,
+							"treatBooleanAsNumber": false
+						}
+					}
+				},
+				"inputs": [
+					{
+						"referenceName": "HTTPCSVDataset",
+						"type": "DatasetReference",
+						"parameters": {
+							"relativeURL": {
+								"value": "@pipeline().parameters.relativeURL",
+								"type": "Expression"
+							}
+						}
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "RawZoneDataSet",
+						"type": "DatasetReference",
+						"parameters": {
+							"zone": "raw",
+							"sourceName": {
+								"value": "@pipeline().parameters.destinationPath",
+								"type": "Expression"
+							},
+							"fileName": {
+								"value": "@pipeline().parameters.destinationName",
+								"type": "Expression"
+							}
+						}
+					}
+				]
+			}
+		],
+		"parameters": {
+			"relativeURL": {
+				"type": "string"
+			},
+			"sourceName": {
+				"type": "string"
+			},
+			"sourcePath": {
+				"type": "string"
+			},
+			"destinationName": {
+				"type": "string"
+			},
+			"destinationPath": {
+				"type": "string"
+			}
+		},
+		"folder": {
+			"name": "Utilities"
+		},
+		"annotations": []
+	}
+}
