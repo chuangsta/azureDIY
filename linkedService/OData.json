@@ -1,0 +1,11 @@
+{
+	"name": "OData",
+	"properties": {
+		"annotations": [],
+		"type": "OData",
+		"typeProperties": {
+			"url": "https://ghoapi.azureedge.net/api",
+			"authenticationType": "Anonymous"
+		}
+	}
+}
