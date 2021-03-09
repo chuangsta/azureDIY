@@ -1,0 +1,45 @@
+{
+	"name": "control",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "controlSQLDatabase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "SourceType",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SourceName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SourcePath",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SourceAdditional",
+				"type": "nvarchar"
+			},
+			{
+				"name": "destinationName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "destinationPath",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Stage",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "ctl",
+			"table": "Control"
+		}
+	}
+}
