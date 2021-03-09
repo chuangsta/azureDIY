@@ -1085,25 +1085,6 @@
 					"display(doctorLatest)"
 				],
 				"execution_count": 4
-			},
-			{
-				"cell_type": "code",
-				"metadata": {
-					"jupyter": {
-						"source_hidden": false,
-						"outputs_hidden": false
-					},
-					"nteract": {
-						"transient": {
-							"deleting": false
-						}
-					},
-					"collapsed": true
-				},
-				"source": [
-					"doctorLatest = doctorLatest.withColumnRenamed(\"_c3\",'COUNTRY').withColumnRenamed(\"max(_c5)\",'YEAR').withColumnRenamed(\"max(_c15)\",'DoctorsPer10k')"
-				],
-				"execution_count": null
 			}
 		]
 	}
