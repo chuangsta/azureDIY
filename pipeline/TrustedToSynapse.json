@@ -3,8 +3,8 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy Trusted To Synapse",
-				"type": "Copy",
+				"name": "LookupTrusted",
+				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {
 					"timeout": "7.00:00:00",
@@ -16,67 +16,78 @@
 				"userProperties": [],
 				"typeProperties": {
 					"source": {
-						"type": "ParquetSource",
-						"storeSettings": {
-							"type": "AzureBlobFSReadSettings",
-							"recursive": true,
-							"enablePartitionDiscovery": false
-						}
+						"type": "AzureSqlSource",
+						"sqlReaderQuery": "select * from ctl.Trusted",
+						"queryTimeout": "02:00:00",
+						"partitionOption": "None"
 					},
-					"sink": {
-						"type": "SqlPoolSink",
-						"allowPolyBase": true,
-						"polyBaseSettings": {
-							"rejectValue": 0,
-							"rejectType": "value",
-							"useTypeDefault": true
-						}
-					},
-					"enableStaging": false
-				},
-				"inputs": [
-					{
-						"referenceName": "TrustedDataSet",
+					"dataset": {
+						"referenceName": "control",
 						"type": "DatasetReference"
+					},
+					"firstRowOnly": false
+				}
+			},
+			{
+				"name": "ForEach1",
+				"type": "ForEach",
+				"dependsOn": [
+					{
+						"activity": "LookupTrusted",
+						"dependencyConditions": [
+							"Succeeded"
+						]
 					}
 				],
-				"outputs": [
-					{
-						"referenceName": "SqlPoolTable",
-						"type": "DatasetReference",
-						"parameters": {
-							"schemaName": {
-								"value": "@pipeline().parameters.TargetSchema",
-								"type": "Expression"
-							},
-							"tableName": {
-								"value": "@pipeline().parameters.TargetTable",
-								"type": "Expression"
+				"userProperties": [],
+				"typeProperties": {
+					"items": {
+						"value": "@activity('LookupTrusted').output.value",
+						"type": "Expression"
+					},
+					"isSequential": false,
+					"activities": [
+						{
+							"name": "Invoke Polybase Synapse",
+							"type": "ExecutePipeline",
+							"dependsOn": [],
+							"userProperties": [],
+							"typeProperties": {
+								"pipeline": {
+									"referenceName": "SynapseLoad",
+									"type": "PipelineReference"
+								},
+								"waitOnCompletion": true,
+								"parameters": {
+									"zoneName": {
+										"value": "@item().sourceZone",
+										"type": "Expression"
+									},
+									"PathName": {
+										"value": "@item().sourcePath",
+										"type": "Expression"
+									},
+									"SourceName": {
+										"value": "@item().sourceName",
+										"type": "Expression"
+									},
+									"schemaName": {
+										"value": "@item().targetSchema",
+										"type": "Expression"
+									},
+									"tableName": {
+										"value": "@item().targetTable",
+										"type": "Expression"
+									}
+								}
 							}
 						}
-					}
-				]
+					]
+				}
 			}
 		],
-		"parameters": {
-			"SourceZone": {
-				"type": "string"
-			},
-			"SourcePath": {
-				"type": "string"
-			},
-			"SourceName": {
-				"type": "string"
-			},
-			"TargetSchema": {
-				"type": "string"
-			},
-			"TargetTable": {
-				"type": "string"
-			}
-		},
 		"folder": {
-			"name": "Staged"
+			"name": "Stage"
 		},
 		"annotations": []
 	}

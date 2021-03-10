@@ -1,0 +1,100 @@
+{
+	"name": "SynapseLoad",
+	"properties": {
+		"activities": [
+			{
+				"name": "Copy Trusted To Synapse",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "ParquetSource",
+						"storeSettings": {
+							"type": "AzureBlobFSReadSettings",
+							"recursive": true,
+							"enablePartitionDiscovery": false
+						}
+					},
+					"sink": {
+						"type": "SqlPoolSink",
+						"tableOption": "autoCreate"
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"typeConversion": true,
+						"typeConversionSettings": {
+							"allowDataTruncation": true,
+							"treatBooleanAsNumber": false
+						}
+					}
+				},
+				"inputs": [
+					{
+						"referenceName": "TrustedDataSet",
+						"type": "DatasetReference",
+						"parameters": {
+							"Zone": {
+								"value": "@pipeline().parameters.zoneName",
+								"type": "Expression"
+							},
+							"Path": {
+								"value": "@pipeline().parameters.PathName",
+								"type": "Expression"
+							},
+							"Name": {
+								"value": "@pipeline().parameters.SourceName",
+								"type": "Expression"
+							}
+						}
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "SqlPoolTable",
+						"type": "DatasetReference",
+						"parameters": {
+							"schemaName": {
+								"value": "@pipeline().parameters.schemaName",
+								"type": "Expression"
+							},
+							"tableName": {
+								"value": "@pipeline().parameters.tableName",
+								"type": "Expression"
+							}
+						}
+					}
+				]
+			}
+		],
+		"parameters": {
+			"zoneName": {
+				"type": "string"
+			},
+			"PathName": {
+				"type": "string"
+			},
+			"SourceName": {
+				"type": "string"
+			},
+			"schemaName": {
+				"type": "string"
+			},
+			"tableName": {
+				"type": "string"
+			}
+		},
+		"folder": {
+			"name": "Utilities"
+		},
+		"annotations": []
+	}
+}
