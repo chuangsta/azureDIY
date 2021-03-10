@@ -61,25 +61,6 @@
 							"deleting": false
 						}
 					},
-					"collapsed": true
-				},
-				"source": [
-					""
-				],
-				"execution_count": null
-			},
-			{
-				"cell_type": "code",
-				"metadata": {
-					"jupyter": {
-						"source_hidden": false,
-						"outputs_hidden": false
-					},
-					"nteract": {
-						"transient": {
-							"deleting": false
-						}
-					},
 					"collapsed": true,
 					"tags": [
 						"parameters"
@@ -94,7 +75,7 @@
 					"targetpath = \"refined\"\r\n",
 					"targetname = \"CountryCodes\""
 				],
-				"execution_count": 4
+				"execution_count": 6
 			},
 			{
 				"cell_type": "code",
@@ -132,7 +113,7 @@
 					"\r\n",
 					"countryCodeDF = spark.read.option('header', 'true') \\\r\n",
 					"                .option('delimiter', ',') \\\r\n",
-					"                .csv(adls_path + filename)"
+					"                .csv(adls_path + sourcename)"
 				],
 				"execution_count": null
 			},

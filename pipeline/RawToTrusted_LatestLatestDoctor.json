@@ -1,0 +1,113 @@
+{
+	"name": "RawToTrusted_LatestLatestDoctor",
+	"properties": {
+		"activities": [
+			{
+				"name": "RawToTrusted-CountryCode",
+				"type": "SynapseNotebook",
+				"dependsOn": [
+					{
+						"activity": "LookupTransform",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebook": {
+						"referenceName": "LatestDoctorCounts",
+						"type": "NotebookReference"
+					},
+					"parameters": {
+						"accountname": {
+							"value": {
+								"value": "@activity('LookupTransform').output.firstRow.accountname",
+								"type": "Expression"
+							},
+							"type": "string"
+						},
+						"sourcezone": {
+							"value": {
+								"value": "@activity('LookupTransform').output.firstRow.sourcezone",
+								"type": "Expression"
+							},
+							"type": "string"
+						},
+						"sourcepath": {
+							"value": {
+								"value": "@activity('LookupTransform').output.firstRow.sourcepath",
+								"type": "Expression"
+							},
+							"type": "string"
+						},
+						"sourcename": {
+							"value": {
+								"value": "@activity('LookupTransform').output.firstRow.sourcename",
+								"type": "Expression"
+							},
+							"type": "string"
+						},
+						"targetzone": {
+							"value": {
+								"value": "@activity('LookupTransform').output.firstRow.targetzone",
+								"type": "Expression"
+							},
+							"type": "string"
+						},
+						"targetpath": {
+							"value": {
+								"value": "@activity('LookupTransform').output.firstRow.targetpath",
+								"type": "Expression"
+							},
+							"type": "string"
+						},
+						"targetname": {
+							"value": {
+								"value": "@activity('LookupTransform').output.firstRow.targetname",
+								"type": "Expression"
+							},
+							"type": "string"
+						}
+					}
+				}
+			},
+			{
+				"name": "LookupTransform",
+				"type": "Lookup",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "AzureSqlSource",
+						"sqlReaderQuery": "SELECT * FROM CTL.TRANSFORM\nWHERE sourcepath = 'GHODoctors'",
+						"queryTimeout": "02:00:00",
+						"partitionOption": "None"
+					},
+					"dataset": {
+						"referenceName": "control",
+						"type": "DatasetReference"
+					}
+				}
+			}
+		],
+		"folder": {
+			"name": "Staged"
+		},
+		"annotations": []
+	}
+}
