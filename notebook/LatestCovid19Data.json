@@ -24,7 +24,7 @@
 			"synapse_widget": {
 				"version": "0.1",
 				"state": {
-					"193bb2f4-817d-4cc1-999c-3036217feb53": {
+					"783d209c-5a22-4471-81d3-e15767c00004": {
 						"type": "Synapse.DataFrame",
 						"sync_state": {
 							"table": {
@@ -1248,7 +1248,7 @@
 					"targetname = \"LatestCovidData\"\r\n",
 					""
 				],
-				"execution_count": 2
+				"execution_count": 8
 			},
 			{
 				"cell_type": "code",
@@ -1274,7 +1274,7 @@
 					"#relative_path = path\r\n",
 					"adls_path = 'abfss://%s@%s.dfs.core.windows.net/%s' % (sourcezone, account_name, sourcepath)"
 				],
-				"execution_count": 3
+				"execution_count": 9
 			},
 			{
 				"cell_type": "code",
@@ -1294,7 +1294,7 @@
 					"covidRaw = spark.read.option(\"inferSchema\",True).option(\"header\",True).csv(adls_path + sourcename)\r\n",
 					""
 				],
-				"execution_count": 4
+				"execution_count": 10
 			},
 			{
 				"cell_type": "code",
@@ -1313,14 +1313,14 @@
 				"source": [
 					"covidlatest=covidRaw.select(\"Country_Region\",\"Confirmed\",\"Deaths\",\"Recovered\").groupby(\"Country_Region\").sum(\"Confirmed\",\"Deaths\",\"Recovered\")\r\n",
 					"\r\n",
-					"coviddoctorfinal=covidlatest\\\r\n",
+					"covidlatest=covidlatest\\\r\n",
 					".withColumnRenamed('sum(Confirmed)','Confirmed')\\\r\n",
 					".withColumnRenamed('sum(Deaths)','Deaths')\\\r\n",
 					".withColumnRenamed('sum(Recovered)','Recovered')\\\r\n",
 					"\r\n",
-					"display(coviddoctorfinal)"
+					"display(covidlatest)"
 				],
-				"execution_count": 7
+				"execution_count": 13
 			},
 			{
 				"cell_type": "code",
@@ -1337,11 +1337,16 @@
 					"collapsed": true
 				},
 				"source": [
-					"target_folder_path =  'abfss://trusted@azurediyauedls.dfs.core.windows.net/refined/LatestDoctorCounts/'\r\n",
 					"\r\n",
-					"coviddoctorfinal.write.format(\"parquet\").save(target_folder_path)"
+					"\r\n",
+					"\r\n",
+					"target_folder_path =  'abfss://'+targetzone+'@'+account_name+'.dfs.core.windows.net/'+targetpath+'/'+targetname+'/'\r\n",
+					"\r\n",
+					"#adls_target_path = 'abfss://%s@%s.dfs.core.windows.net/%s' % (targetzone, account_name, targetpath)\r\n",
+					"\r\n",
+					"covidlatest.write.format(\"parquet\").save(target_folder_path)"
 				],
-				"execution_count": null
+				"execution_count": 14
 			}
 		]
 	}
