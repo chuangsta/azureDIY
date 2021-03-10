@@ -1148,6 +1148,25 @@
 					"collapsed": true
 				},
 				"source": [
+					""
+				],
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": true
+				},
+				"source": [
 					"#write to trusted zone\r\n",
 					"\r\n",
 					"target_folder_path =  'abfss://'+targetzone+'@'+account_name+'.dfs.core.windows.net/'+targetpath+'/'+targetname+'/'\r\n",

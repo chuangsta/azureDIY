@@ -1,6 +1,56 @@
 {
 	"name": "Pipeline 1",
 	"properties": {
+		"activities": [
+			{
+				"name": "RawToTrusted-CountryCode",
+				"type": "SynapseNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebook": {
+						"referenceName": "GHOCountryCodes",
+						"type": "NotebookReference"
+					},
+					"parameters": {
+						"accountname": {
+							"value": "",
+							"type": "string"
+						},
+						"sourcezone": {
+							"value": "",
+							"type": "string"
+						},
+						"sourcepath": {
+							"value": "",
+							"type": "string"
+						},
+						"sourcename": {
+							"value": "",
+							"type": "string"
+						},
+						"targetzone": {
+							"value": "",
+							"type": "string"
+						},
+						"targetpath": {
+							"value": "",
+							"type": "string"
+						},
+						"targetname": {
+							"value": ""
+						}
+					}
+				}
+			}
+		],
 		"folder": {
 			"name": "Staged"
 		},
