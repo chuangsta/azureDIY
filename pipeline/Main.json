@@ -1,0 +1,101 @@
+{
+	"name": "Main",
+	"properties": {
+		"activities": [
+			{
+				"name": "HTTPToRaw",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "HTTPtoRaw",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": false
+				}
+			},
+			{
+				"name": "ODataToRaw",
+				"type": "ExecutePipeline",
+				"dependsOn": [
+					{
+						"activity": "HTTPToRaw",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "ODataToRaw",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "RawToTrusted_LatestCovid",
+				"type": "ExecutePipeline",
+				"dependsOn": [
+					{
+						"activity": "ODataToRaw",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "RawToTrusted_LatestCovid",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "RawToTrusted_LatestDoctor",
+				"type": "ExecutePipeline",
+				"dependsOn": [
+					{
+						"activity": "ODataToRaw",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "RawToTrusted_LatestLatestDoctor",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "RawToTrusted_CountryCode",
+				"type": "ExecutePipeline",
+				"dependsOn": [
+					{
+						"activity": "ODataToRaw",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "RawToTrustedCountryCodes",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			}
+		],
+		"annotations": []
+	}
+}
