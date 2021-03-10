@@ -1078,13 +1078,34 @@
 			},
 			{
 				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": true
+				},
 				"source": [
 					"from pyspark.sql import SparkSession\r\n",
 					"from pyspark.sql.types import *\r\n",
-					"account_name = \"azurediyauedls\"\r\n",
-					"container_name = \"raw\"\r\n",
-					"relative_path = path\r\n",
-					"adls_path = 'abfss://%s@%s.dfs.core.windows.net/%s' % (container_name, account_name, relative_path)\r\n",
+					"\r\n",
+					"#connect to raw zone\r\n",
+					"#account_name = \"azurediyauedls\"\r\n",
+					"#container_name = \"raw\"\r\n",
+					"#relative_path = path\r\n",
+					"adls_path = 'abfss://%s@%s.dfs.core.windows.net/%s' % (sourcezone, account_name, sourcepath)"
+				],
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"source": [
+					"\r\n",
 					"\r\n",
 					"doctorDF = spark.read.option('inferSchema', 'true') \\\r\n",
 					"                .option('delimiter', ',') \\\r\n",
