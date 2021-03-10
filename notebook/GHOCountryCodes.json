@@ -1055,6 +1055,28 @@
 					"display(countrycodeiso3)"
 				],
 				"execution_count": 6
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": true
+				},
+				"source": [
+					"#write to trusted zone\r\n",
+					"target_folder_path =  'abfss://trusted@azurediyauedls.dfs.core.windows.net/refined/CountryCodes/'\r\n",
+					"\r\n",
+					"countrycodeiso3.write.format(\"parquet\").save(target_folder_path)"
+				],
+				"execution_count": 7
 			}
 		]
 	}

@@ -22,7 +22,1006 @@
 		"metadata": {
 			"saveOutput": true,
 			"synapse_widget": {
-				"version": "0.1"
+				"version": "0.1",
+				"state": {
+					"631b2382-de6e-4971-955a-cc682fa8b504": {
+						"type": "Synapse.DataFrame",
+						"sync_state": {
+							"table": {
+								"rows": [
+									{
+										"YEAR": "2008",
+										"DoctorsPer10k": "23.529",
+										"COUNTRY": "NIU"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "2.384",
+										"COUNTRY": "HTI"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "24.843",
+										"COUNTRY": "BRB"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "46.934",
+										"COUNTRY": "LVA"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "24.188",
+										"COUNTRY": "POL"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "11.867",
+										"COUNTRY": "ZMB"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "13.061",
+										"COUNTRY": "JAM"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "21.652",
+										"COUNTRY": "BRA"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "44.023",
+										"COUNTRY": "ARM"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "0.838",
+										"COUNTRY": "MOZ"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "84.218",
+										"COUNTRY": "CUB"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "28.078",
+										"COUNTRY": "JOR"
+									},
+									{
+										"YEAR": "2014",
+										"DoctorsPer10k": "0.279",
+										"COUNTRY": "SOM"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "34.41",
+										"COUNTRY": "FRA"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "0.934",
+										"COUNTRY": "COD"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "17.812",
+										"COUNTRY": "BRN"
+									},
+									{
+										"YEAR": "2009",
+										"DoctorsPer10k": "6.184",
+										"COUNTRY": "FSM"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "15.901",
+										"COUNTRY": "BOL"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "50.794",
+										"COUNTRY": "URY"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "20.905",
+										"COUNTRY": "LBY"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "0.986",
+										"COUNTRY": "ETH"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "29.56",
+										"COUNTRY": "ATG"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "4.017",
+										"COUNTRY": "GNQ"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "59.882",
+										"COUNTRY": "ITA"
+									},
+									{
+										"YEAR": "2014",
+										"DoctorsPer10k": "34.965",
+										"COUNTRY": "UKR"
+									},
+									{
+										"YEAR": "2011",
+										"DoctorsPer10k": "1.81",
+										"COUNTRY": "CMR"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "1.523",
+										"COUNTRY": "GHA"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "0.511",
+										"COUNTRY": "NER"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "3.179",
+										"COUNTRY": "SEN"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "9.039",
+										"COUNTRY": "GTM"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "2.715",
+										"COUNTRY": "COM"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "8.023",
+										"COUNTRY": "GUY"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "26.809",
+										"COUNTRY": "LCA"
+									},
+									{
+										"YEAR": "2010",
+										"DoctorsPer10k": "9.361",
+										"COUNTRY": "VCT"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "31.728",
+										"COUNTRY": "HRV"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "37.273",
+										"COUNTRY": "QAT"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "27.553",
+										"COUNTRY": "BHS"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "28.117",
+										"COUNTRY": "GBR"
+									},
+									{
+										"YEAR": "2015",
+										"DoctorsPer10k": "1.109",
+										"COUNTRY": "GMB"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "13.544",
+										"COUNTRY": "PRY"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "25.278",
+										"COUNTRY": "ARE"
+									},
+									{
+										"YEAR": "2013",
+										"DoctorsPer10k": "5.967",
+										"COUNTRY": "TON"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "29.533",
+										"COUNTRY": "CRI"
+									},
+									{
+										"YEAR": "2014",
+										"DoctorsPer10k": "28.77",
+										"COUNTRY": "TJK"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "0.79",
+										"COUNTRY": "ERI"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "9.101",
+										"COUNTRY": "NPL"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "1.68",
+										"COUNTRY": "UGA"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "1.844",
+										"COUNTRY": "VUT"
+									},
+									{
+										"YEAR": "2014",
+										"DoctorsPer10k": "38.232",
+										"COUNTRY": "AZE"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "1.395",
+										"COUNTRY": "MLI"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "36.778",
+										"COUNTRY": "AUS"
+									},
+									{
+										"YEAR": "2015",
+										"DoctorsPer10k": "26.758",
+										"COUNTRY": "KNA"
+									},
+									{
+										"YEAR": "2015",
+										"DoctorsPer10k": "33.553",
+										"COUNTRY": "MLT"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "23.827",
+										"COUNTRY": "MEX"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "17.791",
+										"COUNTRY": "DMA"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "2.983",
+										"COUNTRY": "AFG"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "5.809",
+										"COUNTRY": "BGD"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "0.699",
+										"COUNTRY": "PNG"
+									},
+									{
+										"YEAR": "2014",
+										"DoctorsPer10k": "5.251",
+										"COUNTRY": "YEM"
+									},
+									{
+										"YEAR": "2015",
+										"DoctorsPer10k": "51.905",
+										"COUNTRY": "BLR"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "32.194",
+										"COUNTRY": "MNG"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "21.212",
+										"COUNTRY": "SYC"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "34.664",
+										"COUNTRY": "SVK"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "5.27",
+										"COUNTRY": "STP"
+									},
+									{
+										"YEAR": "2011",
+										"DoctorsPer10k": "7.301",
+										"COUNTRY": "COG"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "37.708",
+										"COUNTRY": "HUN"
+									},
+									{
+										"YEAR": "2014",
+										"DoctorsPer10k": "70.946",
+										"COUNTRY": "TKM"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "35.898",
+										"COUNTRY": "NZL"
+									},
+									{
+										"YEAR": "2014",
+										"DoctorsPer10k": "2.328",
+										"COUNTRY": "DJI"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "8.075",
+										"COUNTRY": "THA"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "10.364",
+										"COUNTRY": "IRQ"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "29.164",
+										"COUNTRY": "NOR"
+									},
+									{
+										"YEAR": "2001",
+										"DoctorsPer10k": "19.475",
+										"COUNTRY": "VEN"
+									},
+									{
+										"YEAR": "2014",
+										"DoctorsPer10k": "11.524",
+										"COUNTRY": "TUV"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "2.038",
+										"COUNTRY": "GNB"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "7.504",
+										"COUNTRY": "TLS"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "5.269",
+										"COUNTRY": "BWA"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "26.117",
+										"COUNTRY": "SAU"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "38.118",
+										"COUNTRY": "FIN"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "0.847",
+										"COUNTRY": "BFA"
+									},
+									{
+										"YEAR": "2011",
+										"DoctorsPer10k": "18.498",
+										"COUNTRY": "DOM"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "2.554",
+										"COUNTRY": "TGO"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "16.217",
+										"COUNTRY": "ALB"
+									},
+									{
+										"YEAR": "2015",
+										"DoctorsPer10k": "10.774",
+										"COUNTRY": "BHR"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "9.895",
+										"COUNTRY": "NIC"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "12.101",
+										"COUNTRY": "SUR"
+									},
+									{
+										"YEAR": "2015",
+										"DoctorsPer10k": "21.616",
+										"COUNTRY": "BIH"
+									},
+									{
+										"YEAR": "2015",
+										"DoctorsPer10k": "26.522",
+										"COUNTRY": "KWT"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "0.358",
+										"COUNTRY": "MWI"
+									},
+									{
+										"YEAR": "2015",
+										"DoctorsPer10k": "8.6",
+										"COUNTRY": "FJI"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "1.865",
+										"COUNTRY": "MRT"
+									},
+									{
+										"YEAR": "2015",
+										"DoctorsPer10k": "33.333",
+										"COUNTRY": "AND"
+									},
+									{
+										"YEAR": "2015",
+										"DoctorsPer10k": "0.836",
+										"COUNTRY": "CAF"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "16.648",
+										"COUNTRY": "PER"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "36.054",
+										"COUNTRY": "NLD"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "10.005",
+										"COUNTRY": "PAK"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "30.09",
+										"COUNTRY": "LUX"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "18.492",
+										"COUNTRY": "TUR"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "1.371",
+										"COUNTRY": "RWA"
+									},
+									{
+										"YEAR": "2011",
+										"DoctorsPer10k": "0.309",
+										"COUNTRY": "SLE"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "27.557",
+										"COUNTRY": "MNE"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "1.001",
+										"COUNTRY": "BDI"
+									},
+									{
+										"YEAR": "2015",
+										"DoctorsPer10k": "7.814",
+										"COUNTRY": "CPV"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "51.697",
+										"COUNTRY": "AUT"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "27.147",
+										"COUNTRY": "USA"
+									},
+									{
+										"YEAR": "2014",
+										"DoctorsPer10k": "1.953",
+										"COUNTRY": "MDG"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "9.135",
+										"COUNTRY": "MAR"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "4.073",
+										"COUNTRY": "SDN"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "21.481",
+										"COUNTRY": "OMN"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "71.201",
+										"COUNTRY": "GEO"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "15.979",
+										"COUNTRY": "PAN"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "8.281",
+										"COUNTRY": "VNM"
+									},
+									{
+										"YEAR": "2014",
+										"DoctorsPer10k": "2.314",
+										"COUNTRY": "CIV"
+									},
+									{
+										"YEAR": "2015",
+										"DoctorsPer10k": "0.376",
+										"COUNTRY": "LBR"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "37.011",
+										"COUNTRY": "PRK"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "23.608",
+										"COUNTRY": "KOR"
+									},
+									{
+										"YEAR": "2010",
+										"DoctorsPer10k": "0.692",
+										"COUNTRY": "LSO"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "9.054",
+										"COUNTRY": "ZAF"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "4.242",
+										"COUNTRY": "BTN"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "46.249",
+										"COUNTRY": "ISR"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "51.24",
+										"COUNTRY": "PRT"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "5.914",
+										"COUNTRY": "NAM"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "13.3",
+										"COUNTRY": "TUN"
+									},
+									{
+										"YEAR": "2014",
+										"DoctorsPer10k": "61.094",
+										"COUNTRY": "SMR"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "15.844",
+										"COUNTRY": "IRN"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "63.528",
+										"COUNTRY": "LTU"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "26.236",
+										"COUNTRY": "CYP"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "2.096",
+										"COUNTRY": "ZWE"
+									},
+									{
+										"YEAR": "2015",
+										"DoctorsPer10k": "15.358",
+										"COUNTRY": "MYS"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "25.912",
+										"COUNTRY": "CHL"
+									},
+									{
+										"YEAR": "2012",
+										"DoctorsPer10k": "5.841",
+										"COUNTRY": "MHL"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "25.331",
+										"COUNTRY": "MUS"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "23.105",
+										"COUNTRY": "CAN"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "21.848",
+										"COUNTRY": "COL"
+									},
+									{
+										"YEAR": "2015",
+										"DoctorsPer10k": "45.231",
+										"COUNTRY": "RUS"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "29.807",
+										"COUNTRY": "ROU"
+									},
+									{
+										"YEAR": "2013",
+										"DoctorsPer10k": "3.984",
+										"COUNTRY": "KIR"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "40.013",
+										"COUNTRY": "ARG"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "11.45",
+										"COUNTRY": "BLZ"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "3.285",
+										"COUNTRY": "SWZ"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "40.099",
+										"COUNTRY": "DNK"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "41.675",
+										"COUNTRY": "TTO"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "40.88",
+										"COUNTRY": "ESP"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "1.959",
+										"COUNTRY": "KEN"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "10.041",
+										"COUNTRY": "LKA"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "6.912",
+										"COUNTRY": "WSM"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "45.627",
+										"COUNTRY": "MDV"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "28.827",
+										"COUNTRY": "LBN"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "44.833",
+										"COUNTRY": "EST"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "2.146",
+										"COUNTRY": "AGO"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "2.013",
+										"COUNTRY": "SLB"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "41.326",
+										"COUNTRY": "IRL"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "42.856",
+										"COUNTRY": "SWE"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "6.819",
+										"COUNTRY": "GAB"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "4.494",
+										"COUNTRY": "NGA"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "9.839",
+										"COUNTRY": "HND"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "30.861",
+										"COUNTRY": "SVN"
+									},
+									{
+										"YEAR": "2015",
+										"DoctorsPer10k": "15.094",
+										"COUNTRY": "NRU"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "18.823",
+										"COUNTRY": "SLV"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "21.111",
+										"COUNTRY": "ECU"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "14.067",
+										"COUNTRY": "GRD"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "15.513",
+										"COUNTRY": "SYR"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "54.789",
+										"COUNTRY": "GRC"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "1.106",
+										"COUNTRY": "GIN"
+									},
+									{
+										"YEAR": "2014",
+										"DoctorsPer10k": "14.124",
+										"COUNTRY": "COK"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "22.936",
+										"COUNTRY": "SGP"
+									},
+									{
+										"YEAR": "2014",
+										"DoctorsPer10k": "40.668",
+										"COUNTRY": "KAZ"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "12.208",
+										"COUNTRY": "IND"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "0.493",
+										"COUNTRY": "TCD"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "8.638",
+										"COUNTRY": "MMR"
+									},
+									{
+										"YEAR": "2014",
+										"DoctorsPer10k": "4.758",
+										"COUNTRY": "KHM"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "30.709",
+										"COUNTRY": "BEL"
+									},
+									{
+										"YEAR": "2015",
+										"DoctorsPer10k": "28.736",
+										"COUNTRY": "MKD"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "4.269",
+										"COUNTRY": "IDN"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "19.798",
+										"COUNTRY": "CHN"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "18.325",
+										"COUNTRY": "DZA"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "42.488",
+										"COUNTRY": "DEU"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "36.662",
+										"COUNTRY": "MDA"
+									},
+									{
+										"YEAR": "2015",
+										"DoctorsPer10k": "40.332",
+										"COUNTRY": "BGR"
+									},
+									{
+										"YEAR": "2014",
+										"DoctorsPer10k": "33.911",
+										"COUNTRY": "UZB"
+									},
+									{
+										"YEAR": "2014",
+										"DoctorsPer10k": "77.778",
+										"COUNTRY": "MCO"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "24.115",
+										"COUNTRY": "JPN"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "31.131",
+										"COUNTRY": "SRB"
+									},
+									{
+										"YEAR": "2016",
+										"DoctorsPer10k": "0.603",
+										"COUNTRY": "TZA"
+									},
+									{
+										"YEAR": "2014",
+										"DoctorsPer10k": "34.741",
+										"COUNTRY": "KGZ"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "7.809",
+										"COUNTRY": "LAO"
+									},
+									{
+										"YEAR": "2014",
+										"DoctorsPer10k": "16.111",
+										"COUNTRY": "PLW"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "42.957",
+										"COUNTRY": "CHE"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "41.208",
+										"COUNTRY": "CZE"
+									},
+									{
+										"YEAR": "2017",
+										"DoctorsPer10k": "12.717",
+										"COUNTRY": "PHL"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "1.849",
+										"COUNTRY": "BEN"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "11.38",
+										"COUNTRY": "EGY"
+									},
+									{
+										"YEAR": "2018",
+										"DoctorsPer10k": "40.778",
+										"COUNTRY": "ISL"
+									}
+								],
+								"schema": {
+									"COUNTRY": "string",
+									"YEAR": "int",
+									"DoctorsPer10k": "double"
+								}
+							},
+							"isSummary": false,
+							"language": "scala"
+						},
+						"persist_state": {
+							"view": {
+								"type": "details",
+								"chartOptions": {
+									"chartType": "bar",
+									"aggregationType": "sum",
+									"categoryFieldKeys": [
+										"COUNTRY"
+									],
+									"seriesFieldKeys": [
+										"YEAR"
+									],
+									"isStacked": false
+								}
+							}
+						}
+					}
+				}
 			},
 			"kernelspec": {
 				"name": "synapse_pyspark",
@@ -70,7 +1069,7 @@
 					"path = \"GHODoctors\"\r\n",
 					"filename = \"/LatestDoctorCounts.csv\""
 				],
-				"execution_count": null
+				"execution_count": 4
 			},
 			{
 				"cell_type": "code",
@@ -86,7 +1085,7 @@
 					"                .option('delimiter', ',') \\\r\n",
 					"                .csv(adls_path + filename)"
 				],
-				"execution_count": 3
+				"execution_count": 5
 			},
 			{
 				"cell_type": "code",
@@ -108,7 +1107,29 @@
 					"doctorLatest = doctorLatest.withColumnRenamed(\"_c3\",'COUNTRY').withColumnRenamed(\"max(_c5)\",'YEAR').withColumnRenamed(\"max(_c15)\",'DoctorsPer10k')\r\n",
 					"display(doctorLatest)"
 				],
-				"execution_count": null
+				"execution_count": 6
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": true
+				},
+				"source": [
+					"#write to trusted zone\r\n",
+					"target_folder_path =  'abfss://trusted@azurediyauedls.dfs.core.windows.net/refined/LatestDoctorCounts/'\r\n",
+					"\r\n",
+					"doctorLatest.write.format(\"parquet\").save(target_folder_path)"
+				],
+				"execution_count": 7
 			}
 		]
 	}
