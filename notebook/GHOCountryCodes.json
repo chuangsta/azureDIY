@@ -24,7 +24,7 @@
 			"synapse_widget": {
 				"version": "0.1",
 				"state": {
-					"e9d0efab-aeca-423e-9c19-758b39635b2d": {
+					"70828842-41d8-4a35-b9a1-fc5b1ab48f9c": {
 						"type": "Synapse.DataFrame",
 						"sync_state": {
 							"table": {
@@ -1012,10 +1012,42 @@
 					]
 				},
 				"source": [
-					"path = \"CSSEGISandData\"\r\n",
-					"filename = \"/UID_ISO_FIPS_LookUp_Table.csv\""
+					"account_name = \"azurediyauedls\"\r\n",
+					"sourcezone = \"raw\"\r\n",
+					"sourcepath = \"CSSEGISandData\"\r\n",
+					"sourcename = \"/UID_ISO_FIPS_LookUp_Table.csv\"\r\n",
+					"targetzone = \"trusted\"\r\n",
+					"targetpath = \"refined\"\r\n",
+					"targetname = \"CountryCodes\""
 				],
-				"execution_count": 4
+				"execution_count": 13
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": true
+				},
+				"source": [
+					"from pyspark.sql import SparkSession\r\n",
+					"from pyspark.sql.types import *\r\n",
+					"\r\n",
+					"#connect to raw zone\r\n",
+					"#account_name = \"azurediyauedls\"\r\n",
+					"#container_name = \"raw\"\r\n",
+					"#relative_path = path\r\n",
+					"adls_path = 'abfss://%s@%s.dfs.core.windows.net/%s' % (sourcezone, account_name, sourcepath)\r\n",
+					""
+				],
+				"execution_count": 14
 			},
 			{
 				"cell_type": "code",
@@ -1023,18 +1055,12 @@
 					"tags": []
 				},
 				"source": [
-					"from pyspark.sql import SparkSession\r\n",
-					"from pyspark.sql.types import *\r\n",
-					"account_name = \"azurediyauedls\"\r\n",
-					"container_name = \"raw\"\r\n",
-					"relative_path = path\r\n",
-					"adls_path = 'abfss://%s@%s.dfs.core.windows.net/%s' % (container_name, account_name, relative_path)\r\n",
 					"\r\n",
 					"countryCodeDF = spark.read.option('header', 'true') \\\r\n",
 					"                .option('delimiter', ',') \\\r\n",
 					"                .csv(adls_path + filename)"
 				],
-				"execution_count": 5
+				"execution_count": 15
 			},
 			{
 				"cell_type": "code",
@@ -1054,7 +1080,7 @@
 					"countrycodeiso3= countryCodeDF.select(\"iso3\",\"Country_Region\").distinct()\r\n",
 					"display(countrycodeiso3)"
 				],
-				"execution_count": 6
+				"execution_count": 16
 			},
 			{
 				"cell_type": "code",
@@ -1072,11 +1098,13 @@
 				},
 				"source": [
 					"#write to trusted zone\r\n",
-					"target_folder_path =  'abfss://trusted@azurediyauedls.dfs.core.windows.net/refined/CountryCodes/'\r\n",
+					"target_folder_path =  'abfss://'+targetzone+'@'+account_name+'.dfs.core.windows.net/'+targetpath+'/'+targetname+'/'\r\n",
+					"\r\n",
+					"#adls_target_path = 'abfss://%s@%s.dfs.core.windows.net/%s' % (targetzone, account_name, targetpath)\r\n",
 					"\r\n",
 					"countrycodeiso3.write.format(\"parquet\").save(target_folder_path)"
 				],
-				"execution_count": 7
+				"execution_count": 19
 			}
 		]
 	}

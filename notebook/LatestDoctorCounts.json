@@ -1066,8 +1066,13 @@
 					]
 				},
 				"source": [
-					"path = \"GHODoctors\"\r\n",
-					"filename = \"/LatestDoctorCounts.csv\""
+					"account_name = \"azurediyauedls\"\r\n",
+					"sourcezone = \"raw\"\r\n",
+					"sourcepath = \"GHODoctors\"\r\n",
+					"sourcename = \"/LatestDoctorCounts.csv\"\r\n",
+					"targetzone = \"trusted\"\r\n",
+					"targetpath = \"refined\"\r\n",
+					"targetname = \"LatestDoctorCounts\""
 				],
 				"execution_count": 4
 			},
