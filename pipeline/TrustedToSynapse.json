@@ -1,0 +1,83 @@
+{
+	"name": "TrustedToSynapse",
+	"properties": {
+		"activities": [
+			{
+				"name": "Copy Trusted To Synapse",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "ParquetSource",
+						"storeSettings": {
+							"type": "AzureBlobFSReadSettings",
+							"recursive": true,
+							"enablePartitionDiscovery": false
+						}
+					},
+					"sink": {
+						"type": "SqlPoolSink",
+						"allowPolyBase": true,
+						"polyBaseSettings": {
+							"rejectValue": 0,
+							"rejectType": "value",
+							"useTypeDefault": true
+						}
+					},
+					"enableStaging": false
+				},
+				"inputs": [
+					{
+						"referenceName": "TrustedDataSet",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "SqlPoolTable",
+						"type": "DatasetReference",
+						"parameters": {
+							"schemaName": {
+								"value": "@pipeline().parameters.TargetSchema",
+								"type": "Expression"
+							},
+							"tableName": {
+								"value": "@pipeline().parameters.TargetTable",
+								"type": "Expression"
+							}
+						}
+					}
+				]
+			}
+		],
+		"parameters": {
+			"SourceZone": {
+				"type": "string"
+			},
+			"SourcePath": {
+				"type": "string"
+			},
+			"SourceName": {
+				"type": "string"
+			},
+			"TargetSchema": {
+				"type": "string"
+			},
+			"TargetTable": {
+				"type": "string"
+			}
+		},
+		"folder": {
+			"name": "Staged"
+		},
+		"annotations": []
+	}
+}
