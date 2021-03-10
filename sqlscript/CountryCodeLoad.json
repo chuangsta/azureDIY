@@ -1,0 +1,16 @@
+{
+	"name": "CountryCodeLoad",
+	"properties": {
+		"content": {
+			"query": "IF NOT EXISTS (SELECT * FROM sys.objects O JOIN sys.schemas S ON O.schema_id = S.schema_id WHERE O.NAME = 'countrycodes' AND O.TYPE = 'U' AND S.NAME = 'tgt')\nCREATE TABLE tgt.countrycodes\n\t(\n\t [iso3] nvarchar(4000),\n\t [Country_Region] nvarchar(4000)\n\t)\nWITH\n\t(\n\tDISTRIBUTION = ROUND_ROBIN,\n\t CLUSTERED COLUMNSTORE INDEX\n\t -- HEAP\n\t)\nGO\n\n--Uncomment the 4 lines below to create a stored procedure for data pipeline orchestration​                 \n--CREATE PROC bulk_load_countrycodes\n--AS\n--BEGIN\nCOPY INTO tgt.countrycodes\n(iso3 1, Country_Region 2)\nFROM 'https://azurediyauedls.dfs.core.windows.net/trusted/refined/CountryCodes'\nWITH\n(\n\tFILE_TYPE = 'PARQUET'\n\t,MAXERRORS = 0\n\t,IDENTITY_INSERT = 'OFF'\n)\n--END\nGO\n\nSELECT TOP 100 * FROM tgt.countrycodes\nGO",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"poolName": "azureDIYSQLPool",
+				"databaseName": "azureDIYSQLPool"
+			}
+		},
+		"type": "SqlQuery"
+	}
+}
