@@ -75,7 +75,7 @@
 					"targetpath = \"refined\"\r\n",
 					"targetname = \"CountryCodes\""
 				],
-				"execution_count": 6
+				"execution_count": 7
 			},
 			{
 				"cell_type": "code",
@@ -157,7 +157,7 @@
 					"\r\n",
 					"#adls_target_path = 'abfss://%s@%s.dfs.core.windows.net/%s' % (targetzone, account_name, targetpath)\r\n",
 					"\r\n",
-					"countrycodeiso3.write.format(\"parquet\").save(target_folder_path)"
+					"countrycodeiso3.write.mode(\"overwrite\").format(\"parquet\").option('SaveMode' ).save(target_folder_path)"
 				],
 				"execution_count": null
 			}

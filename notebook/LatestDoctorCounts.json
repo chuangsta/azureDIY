@@ -1173,7 +1173,7 @@
 					"\r\n",
 					"#adls_target_path = 'abfss://%s@%s.dfs.core.windows.net/%s' % (targetzone, account_name, targetpath)\r\n",
 					"\r\n",
-					"doctorLatest.write.format(\"parquet\").save(target_folder_path)"
+					"doctorLatest.write.mode(\"overwrite\").format(\"parquet\").save(target_folder_path)"
 				],
 				"execution_count": 19
 			}
