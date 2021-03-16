@@ -23,7 +23,7 @@
 			}
 		},
 		"sqlPool": {
-			"referenceName": "azureDIYSQLPool",
+			"referenceName": "AzureDIYSQL",
 			"type": "SqlPoolReference"
 		}
 	}

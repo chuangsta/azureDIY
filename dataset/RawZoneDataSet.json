@@ -2,7 +2,7 @@
 	"name": "RawZoneDataSet",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureDataLakeStorage",
+			"referenceName": "AzureDataLakeGen2",
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
