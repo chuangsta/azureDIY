@@ -4,7 +4,7 @@
 		"nbformat": 4,
 		"nbformat_minor": 2,
 		"bigDataPool": {
-			"referenceName": "azureDIY",
+			"referenceName": "AzureDIY",
 			"type": "BigDataPoolReference"
 		},
 		"sessionProperties": {
@@ -24,975 +24,975 @@
 			"synapse_widget": {
 				"version": "0.1",
 				"state": {
-					"2773a055-3864-4f48-a404-a1f13145bc3e": {
+					"7aeb1fc3-ff82-4e4d-9e9d-0774c86fcd35": {
 						"type": "Synapse.DataFrame",
 						"sync_state": {
 							"table": {
 								"rows": [
 									{
-										"YEAR": "2008",
-										"DoctorsPer10k": "23.529",
-										"COUNTRY": "NIU"
+										"COUNTRY": "NIU",
+										"YEAR": 2008,
+										"DoctorsPer10k": 23.529
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "2.384",
-										"COUNTRY": "HTI"
+										"COUNTRY": "HTI",
+										"YEAR": 2018,
+										"DoctorsPer10k": 2.384
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "24.843",
-										"COUNTRY": "BRB"
+										"COUNTRY": "BRB",
+										"YEAR": 2017,
+										"DoctorsPer10k": 24.843
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "46.934",
-										"COUNTRY": "LVA"
+										"COUNTRY": "LVA",
+										"YEAR": 2017,
+										"DoctorsPer10k": 46.934
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "24.188",
-										"COUNTRY": "POL"
+										"COUNTRY": "POL",
+										"YEAR": 2017,
+										"DoctorsPer10k": 24.188
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "11.867",
-										"COUNTRY": "ZMB"
+										"COUNTRY": "ZMB",
+										"YEAR": 2018,
+										"DoctorsPer10k": 11.867
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "13.061",
-										"COUNTRY": "JAM"
+										"COUNTRY": "JAM",
+										"YEAR": 2017,
+										"DoctorsPer10k": 13.061
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "21.652",
-										"COUNTRY": "BRA"
+										"COUNTRY": "BRA",
+										"YEAR": 2018,
+										"DoctorsPer10k": 21.652
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "44.023",
-										"COUNTRY": "ARM"
+										"COUNTRY": "ARM",
+										"YEAR": 2017,
+										"DoctorsPer10k": 44.023
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "0.838",
-										"COUNTRY": "MOZ"
+										"COUNTRY": "MOZ",
+										"YEAR": 2018,
+										"DoctorsPer10k": 0.838
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "84.218",
-										"COUNTRY": "CUB"
+										"COUNTRY": "CUB",
+										"YEAR": 2018,
+										"DoctorsPer10k": 84.218
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "28.078",
-										"COUNTRY": "JOR"
+										"COUNTRY": "JOR",
+										"YEAR": 2017,
+										"DoctorsPer10k": 28.078
 									},
 									{
-										"YEAR": "2014",
-										"DoctorsPer10k": "0.279",
-										"COUNTRY": "SOM"
+										"COUNTRY": "SOM",
+										"YEAR": 2014,
+										"DoctorsPer10k": 0.279
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "34.41",
-										"COUNTRY": "FRA"
+										"COUNTRY": "FRA",
+										"YEAR": 2018,
+										"DoctorsPer10k": 34.41
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "0.934",
-										"COUNTRY": "COD"
+										"COUNTRY": "COD",
+										"YEAR": 2016,
+										"DoctorsPer10k": 0.934
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "17.812",
-										"COUNTRY": "BRN"
+										"COUNTRY": "BRN",
+										"YEAR": 2017,
+										"DoctorsPer10k": 17.812
 									},
 									{
-										"YEAR": "2009",
-										"DoctorsPer10k": "6.184",
-										"COUNTRY": "FSM"
+										"COUNTRY": "FSM",
+										"YEAR": 2009,
+										"DoctorsPer10k": 6.184
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "15.901",
-										"COUNTRY": "BOL"
+										"COUNTRY": "BOL",
+										"YEAR": 2016,
+										"DoctorsPer10k": 15.901
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "50.794",
-										"COUNTRY": "URY"
+										"COUNTRY": "URY",
+										"YEAR": 2017,
+										"DoctorsPer10k": 50.794
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "20.905",
-										"COUNTRY": "LBY"
+										"COUNTRY": "LBY",
+										"YEAR": 2017,
+										"DoctorsPer10k": 20.905
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "0.986",
-										"COUNTRY": "ETH"
+										"COUNTRY": "ETH",
+										"YEAR": 2018,
+										"DoctorsPer10k": 0.986
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "29.56",
-										"COUNTRY": "ATG"
+										"COUNTRY": "ATG",
+										"YEAR": 2017,
+										"DoctorsPer10k": 29.56
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "4.017",
-										"COUNTRY": "GNQ"
+										"COUNTRY": "GNQ",
+										"YEAR": 2017,
+										"DoctorsPer10k": 4.017
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "59.882",
-										"COUNTRY": "ITA"
+										"COUNTRY": "ITA",
+										"YEAR": 2018,
+										"DoctorsPer10k": 59.882
 									},
 									{
-										"YEAR": "2014",
-										"DoctorsPer10k": "34.965",
-										"COUNTRY": "UKR"
+										"COUNTRY": "UKR",
+										"YEAR": 2014,
+										"DoctorsPer10k": 34.965
 									},
 									{
-										"YEAR": "2011",
-										"DoctorsPer10k": "1.81",
-										"COUNTRY": "CMR"
+										"COUNTRY": "CMR",
+										"YEAR": 2011,
+										"DoctorsPer10k": 1.81
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "1.523",
-										"COUNTRY": "GHA"
+										"COUNTRY": "GHA",
+										"YEAR": 2017,
+										"DoctorsPer10k": 1.523
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "0.511",
-										"COUNTRY": "NER"
+										"COUNTRY": "NER",
+										"YEAR": 2016,
+										"DoctorsPer10k": 0.511
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "3.179",
-										"COUNTRY": "SEN"
+										"COUNTRY": "SEN",
+										"YEAR": 2017,
+										"DoctorsPer10k": 3.179
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "9.039",
-										"COUNTRY": "GTM"
+										"COUNTRY": "GTM",
+										"YEAR": 2018,
+										"DoctorsPer10k": 9.039
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "2.715",
-										"COUNTRY": "COM"
+										"COUNTRY": "COM",
+										"YEAR": 2016,
+										"DoctorsPer10k": 2.715
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "8.023",
-										"COUNTRY": "GUY"
+										"COUNTRY": "GUY",
+										"YEAR": 2018,
+										"DoctorsPer10k": 8.023
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "26.809",
-										"COUNTRY": "LCA"
+										"COUNTRY": "LCA",
+										"YEAR": 2017,
+										"DoctorsPer10k": 26.809
 									},
 									{
-										"YEAR": "2010",
-										"DoctorsPer10k": "9.361",
-										"COUNTRY": "VCT"
+										"COUNTRY": "VCT",
+										"YEAR": 2010,
+										"DoctorsPer10k": 9.361
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "31.728",
-										"COUNTRY": "HRV"
+										"COUNTRY": "HRV",
+										"YEAR": 2016,
+										"DoctorsPer10k": 31.728
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "37.273",
-										"COUNTRY": "QAT"
+										"COUNTRY": "QAT",
+										"YEAR": 2018,
+										"DoctorsPer10k": 37.273
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "27.553",
-										"COUNTRY": "BHS"
+										"COUNTRY": "BHS",
+										"YEAR": 2017,
+										"DoctorsPer10k": 27.553
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "28.117",
-										"COUNTRY": "GBR"
+										"COUNTRY": "GBR",
+										"YEAR": 2018,
+										"DoctorsPer10k": 28.117
 									},
 									{
-										"YEAR": "2015",
-										"DoctorsPer10k": "1.109",
-										"COUNTRY": "GMB"
+										"COUNTRY": "GMB",
+										"YEAR": 2015,
+										"DoctorsPer10k": 1.109
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "13.544",
-										"COUNTRY": "PRY"
+										"COUNTRY": "PRY",
+										"YEAR": 2018,
+										"DoctorsPer10k": 13.544
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "25.278",
-										"COUNTRY": "ARE"
+										"COUNTRY": "ARE",
+										"YEAR": 2018,
+										"DoctorsPer10k": 25.278
 									},
 									{
-										"YEAR": "2013",
-										"DoctorsPer10k": "5.967",
-										"COUNTRY": "TON"
+										"COUNTRY": "TON",
+										"YEAR": 2013,
+										"DoctorsPer10k": 5.967
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "29.533",
-										"COUNTRY": "CRI"
+										"COUNTRY": "CRI",
+										"YEAR": 2018,
+										"DoctorsPer10k": 29.533
 									},
 									{
-										"YEAR": "2014",
-										"DoctorsPer10k": "28.77",
-										"COUNTRY": "TJK"
+										"COUNTRY": "TJK",
+										"YEAR": 2014,
+										"DoctorsPer10k": 28.77
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "0.79",
-										"COUNTRY": "ERI"
+										"COUNTRY": "ERI",
+										"YEAR": 2016,
+										"DoctorsPer10k": 0.79
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "9.101",
-										"COUNTRY": "NPL"
+										"COUNTRY": "NPL",
+										"YEAR": 2018,
+										"DoctorsPer10k": 9.101
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "1.68",
-										"COUNTRY": "UGA"
+										"COUNTRY": "UGA",
+										"YEAR": 2017,
+										"DoctorsPer10k": 1.68
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "1.844",
-										"COUNTRY": "VUT"
+										"COUNTRY": "VUT",
+										"YEAR": 2016,
+										"DoctorsPer10k": 1.844
 									},
 									{
-										"YEAR": "2014",
-										"DoctorsPer10k": "38.232",
-										"COUNTRY": "AZE"
+										"COUNTRY": "AZE",
+										"YEAR": 2014,
+										"DoctorsPer10k": 38.232
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "1.395",
-										"COUNTRY": "MLI"
+										"COUNTRY": "MLI",
+										"YEAR": 2018,
+										"DoctorsPer10k": 1.395
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "36.778",
-										"COUNTRY": "AUS"
+										"COUNTRY": "AUS",
+										"YEAR": 2017,
+										"DoctorsPer10k": 36.778
 									},
 									{
-										"YEAR": "2015",
-										"DoctorsPer10k": "26.758",
-										"COUNTRY": "KNA"
+										"COUNTRY": "KNA",
+										"YEAR": 2015,
+										"DoctorsPer10k": 26.758
 									},
 									{
-										"YEAR": "2015",
-										"DoctorsPer10k": "33.553",
-										"COUNTRY": "MLT"
+										"COUNTRY": "MLT",
+										"YEAR": 2015,
+										"DoctorsPer10k": 33.553
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "23.827",
-										"COUNTRY": "MEX"
+										"COUNTRY": "MEX",
+										"YEAR": 2017,
+										"DoctorsPer10k": 23.827
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "17.791",
-										"COUNTRY": "DMA"
+										"COUNTRY": "DMA",
+										"YEAR": 2017,
+										"DoctorsPer10k": 17.791
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "2.983",
-										"COUNTRY": "AFG"
+										"COUNTRY": "AFG",
+										"YEAR": 2016,
+										"DoctorsPer10k": 2.983
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "5.809",
-										"COUNTRY": "BGD"
+										"COUNTRY": "BGD",
+										"YEAR": 2018,
+										"DoctorsPer10k": 5.809
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "0.699",
-										"COUNTRY": "PNG"
+										"COUNTRY": "PNG",
+										"YEAR": 2018,
+										"DoctorsPer10k": 0.699
 									},
 									{
-										"YEAR": "2014",
-										"DoctorsPer10k": "5.251",
-										"COUNTRY": "YEM"
+										"COUNTRY": "YEM",
+										"YEAR": 2014,
+										"DoctorsPer10k": 5.251
 									},
 									{
-										"YEAR": "2015",
-										"DoctorsPer10k": "51.905",
-										"COUNTRY": "BLR"
+										"COUNTRY": "BLR",
+										"YEAR": 2015,
+										"DoctorsPer10k": 51.905
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "32.194",
-										"COUNTRY": "MNG"
+										"COUNTRY": "MNG",
+										"YEAR": 2016,
+										"DoctorsPer10k": 32.194
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "21.212",
-										"COUNTRY": "SYC"
+										"COUNTRY": "SYC",
+										"YEAR": 2016,
+										"DoctorsPer10k": 21.212
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "34.664",
-										"COUNTRY": "SVK"
+										"COUNTRY": "SVK",
+										"YEAR": 2017,
+										"DoctorsPer10k": 34.664
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "5.27",
-										"COUNTRY": "STP"
+										"COUNTRY": "STP",
+										"YEAR": 2017,
+										"DoctorsPer10k": 5.27
 									},
 									{
-										"YEAR": "2011",
-										"DoctorsPer10k": "7.301",
-										"COUNTRY": "COG"
+										"COUNTRY": "COG",
+										"YEAR": 2011,
+										"DoctorsPer10k": 7.301
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "37.708",
-										"COUNTRY": "HUN"
+										"COUNTRY": "HUN",
+										"YEAR": 2018,
+										"DoctorsPer10k": 37.708
 									},
 									{
-										"YEAR": "2014",
-										"DoctorsPer10k": "70.946",
-										"COUNTRY": "TKM"
+										"COUNTRY": "TKM",
+										"YEAR": 2014,
+										"DoctorsPer10k": 70.946
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "35.898",
-										"COUNTRY": "NZL"
+										"COUNTRY": "NZL",
+										"YEAR": 2018,
+										"DoctorsPer10k": 35.898
 									},
 									{
-										"YEAR": "2014",
-										"DoctorsPer10k": "2.328",
-										"COUNTRY": "DJI"
+										"COUNTRY": "DJI",
+										"YEAR": 2014,
+										"DoctorsPer10k": 2.328
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "8.075",
-										"COUNTRY": "THA"
+										"COUNTRY": "THA",
+										"YEAR": 2018,
+										"DoctorsPer10k": 8.075
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "10.364",
-										"COUNTRY": "IRQ"
+										"COUNTRY": "IRQ",
+										"YEAR": 2018,
+										"DoctorsPer10k": 10.364
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "29.164",
-										"COUNTRY": "NOR"
+										"COUNTRY": "NOR",
+										"YEAR": 2018,
+										"DoctorsPer10k": 29.164
 									},
 									{
-										"YEAR": "2001",
-										"DoctorsPer10k": "19.475",
-										"COUNTRY": "VEN"
+										"COUNTRY": "VEN",
+										"YEAR": 2001,
+										"DoctorsPer10k": 19.475
 									},
 									{
-										"YEAR": "2014",
-										"DoctorsPer10k": "11.524",
-										"COUNTRY": "TUV"
+										"COUNTRY": "TUV",
+										"YEAR": 2014,
+										"DoctorsPer10k": 11.524
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "2.038",
-										"COUNTRY": "GNB"
+										"COUNTRY": "GNB",
+										"YEAR": 2016,
+										"DoctorsPer10k": 2.038
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "7.504",
-										"COUNTRY": "TLS"
+										"COUNTRY": "TLS",
+										"YEAR": 2018,
+										"DoctorsPer10k": 7.504
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "5.269",
-										"COUNTRY": "BWA"
+										"COUNTRY": "BWA",
+										"YEAR": 2016,
+										"DoctorsPer10k": 5.269
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "26.117",
-										"COUNTRY": "SAU"
+										"COUNTRY": "SAU",
+										"YEAR": 2018,
+										"DoctorsPer10k": 26.117
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "38.118",
-										"COUNTRY": "FIN"
+										"COUNTRY": "FIN",
+										"YEAR": 2016,
+										"DoctorsPer10k": 38.118
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "0.847",
-										"COUNTRY": "BFA"
+										"COUNTRY": "BFA",
+										"YEAR": 2017,
+										"DoctorsPer10k": 0.847
 									},
 									{
-										"YEAR": "2011",
-										"DoctorsPer10k": "18.498",
-										"COUNTRY": "DOM"
+										"COUNTRY": "DOM",
+										"YEAR": 2011,
+										"DoctorsPer10k": 18.498
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "2.554",
-										"COUNTRY": "TGO"
+										"COUNTRY": "TGO",
+										"YEAR": 2018,
+										"DoctorsPer10k": 2.554
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "16.217",
-										"COUNTRY": "ALB"
+										"COUNTRY": "ALB",
+										"YEAR": 2016,
+										"DoctorsPer10k": 16.217
 									},
 									{
-										"YEAR": "2015",
-										"DoctorsPer10k": "10.774",
-										"COUNTRY": "BHR"
+										"COUNTRY": "BHR",
+										"YEAR": 2015,
+										"DoctorsPer10k": 10.774
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "9.895",
-										"COUNTRY": "NIC"
+										"COUNTRY": "NIC",
+										"YEAR": 2018,
+										"DoctorsPer10k": 9.895
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "12.101",
-										"COUNTRY": "SUR"
+										"COUNTRY": "SUR",
+										"YEAR": 2018,
+										"DoctorsPer10k": 12.101
 									},
 									{
-										"YEAR": "2015",
-										"DoctorsPer10k": "21.616",
-										"COUNTRY": "BIH"
+										"COUNTRY": "BIH",
+										"YEAR": 2015,
+										"DoctorsPer10k": 21.616
 									},
 									{
-										"YEAR": "2015",
-										"DoctorsPer10k": "26.522",
-										"COUNTRY": "KWT"
+										"COUNTRY": "KWT",
+										"YEAR": 2015,
+										"DoctorsPer10k": 26.522
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "0.358",
-										"COUNTRY": "MWI"
+										"COUNTRY": "MWI",
+										"YEAR": 2018,
+										"DoctorsPer10k": 0.358
 									},
 									{
-										"YEAR": "2015",
-										"DoctorsPer10k": "8.6",
-										"COUNTRY": "FJI"
+										"COUNTRY": "FJI",
+										"YEAR": 2015,
+										"DoctorsPer10k": 8.6
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "1.865",
-										"COUNTRY": "MRT"
+										"COUNTRY": "MRT",
+										"YEAR": 2018,
+										"DoctorsPer10k": 1.865
 									},
 									{
-										"YEAR": "2015",
-										"DoctorsPer10k": "33.333",
-										"COUNTRY": "AND"
+										"COUNTRY": "AND",
+										"YEAR": 2015,
+										"DoctorsPer10k": 33.333
 									},
 									{
-										"YEAR": "2015",
-										"DoctorsPer10k": "0.836",
-										"COUNTRY": "CAF"
+										"COUNTRY": "CAF",
+										"YEAR": 2015,
+										"DoctorsPer10k": 0.836
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "16.648",
-										"COUNTRY": "PER"
+										"COUNTRY": "PER",
+										"YEAR": 2016,
+										"DoctorsPer10k": 16.648
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "36.054",
-										"COUNTRY": "NLD"
+										"COUNTRY": "NLD",
+										"YEAR": 2017,
+										"DoctorsPer10k": 36.054
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "10.005",
-										"COUNTRY": "PAK"
+										"COUNTRY": "PAK",
+										"YEAR": 2018,
+										"DoctorsPer10k": 10.005
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "30.09",
-										"COUNTRY": "LUX"
+										"COUNTRY": "LUX",
+										"YEAR": 2017,
+										"DoctorsPer10k": 30.09
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "18.492",
-										"COUNTRY": "TUR"
+										"COUNTRY": "TUR",
+										"YEAR": 2017,
+										"DoctorsPer10k": 18.492
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "1.371",
-										"COUNTRY": "RWA"
+										"COUNTRY": "RWA",
+										"YEAR": 2018,
+										"DoctorsPer10k": 1.371
 									},
 									{
-										"YEAR": "2011",
-										"DoctorsPer10k": "0.309",
-										"COUNTRY": "SLE"
+										"COUNTRY": "SLE",
+										"YEAR": 2011,
+										"DoctorsPer10k": 0.309
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "27.557",
-										"COUNTRY": "MNE"
+										"COUNTRY": "MNE",
+										"YEAR": 2018,
+										"DoctorsPer10k": 27.557
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "1.001",
-										"COUNTRY": "BDI"
+										"COUNTRY": "BDI",
+										"YEAR": 2017,
+										"DoctorsPer10k": 1.001
 									},
 									{
-										"YEAR": "2015",
-										"DoctorsPer10k": "7.814",
-										"COUNTRY": "CPV"
+										"COUNTRY": "CPV",
+										"YEAR": 2015,
+										"DoctorsPer10k": 7.814
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "51.697",
-										"COUNTRY": "AUT"
+										"COUNTRY": "AUT",
+										"YEAR": 2017,
+										"DoctorsPer10k": 51.697
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "27.147",
-										"COUNTRY": "USA"
+										"COUNTRY": "USA",
+										"YEAR": 2017,
+										"DoctorsPer10k": 27.147
 									},
 									{
-										"YEAR": "2014",
-										"DoctorsPer10k": "1.953",
-										"COUNTRY": "MDG"
+										"COUNTRY": "MDG",
+										"YEAR": 2014,
+										"DoctorsPer10k": 1.953
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "9.135",
-										"COUNTRY": "MAR"
+										"COUNTRY": "MAR",
+										"YEAR": 2017,
+										"DoctorsPer10k": 9.135
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "4.073",
-										"COUNTRY": "SDN"
+										"COUNTRY": "SDN",
+										"YEAR": 2017,
+										"DoctorsPer10k": 4.073
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "21.481",
-										"COUNTRY": "OMN"
+										"COUNTRY": "OMN",
+										"YEAR": 2018,
+										"DoctorsPer10k": 21.481
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "71.201",
-										"COUNTRY": "GEO"
+										"COUNTRY": "GEO",
+										"YEAR": 2018,
+										"DoctorsPer10k": 71.201
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "15.979",
-										"COUNTRY": "PAN"
+										"COUNTRY": "PAN",
+										"YEAR": 2016,
+										"DoctorsPer10k": 15.979
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "8.281",
-										"COUNTRY": "VNM"
+										"COUNTRY": "VNM",
+										"YEAR": 2016,
+										"DoctorsPer10k": 8.281
 									},
 									{
-										"YEAR": "2014",
-										"DoctorsPer10k": "2.314",
-										"COUNTRY": "CIV"
+										"COUNTRY": "CIV",
+										"YEAR": 2014,
+										"DoctorsPer10k": 2.314
 									},
 									{
-										"YEAR": "2015",
-										"DoctorsPer10k": "0.376",
-										"COUNTRY": "LBR"
+										"COUNTRY": "LBR",
+										"YEAR": 2015,
+										"DoctorsPer10k": 0.376
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "37.011",
-										"COUNTRY": "PRK"
+										"COUNTRY": "PRK",
+										"YEAR": 2017,
+										"DoctorsPer10k": 37.011
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "23.608",
-										"COUNTRY": "KOR"
+										"COUNTRY": "KOR",
+										"YEAR": 2017,
+										"DoctorsPer10k": 23.608
 									},
 									{
-										"YEAR": "2010",
-										"DoctorsPer10k": "0.692",
-										"COUNTRY": "LSO"
+										"COUNTRY": "LSO",
+										"YEAR": 2010,
+										"DoctorsPer10k": 0.692
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "9.054",
-										"COUNTRY": "ZAF"
+										"COUNTRY": "ZAF",
+										"YEAR": 2017,
+										"DoctorsPer10k": 9.054
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "4.242",
-										"COUNTRY": "BTN"
+										"COUNTRY": "BTN",
+										"YEAR": 2018,
+										"DoctorsPer10k": 4.242
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "46.249",
-										"COUNTRY": "ISR"
+										"COUNTRY": "ISR",
+										"YEAR": 2018,
+										"DoctorsPer10k": 46.249
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "51.24",
-										"COUNTRY": "PRT"
+										"COUNTRY": "PRT",
+										"YEAR": 2017,
+										"DoctorsPer10k": 51.24
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "5.914",
-										"COUNTRY": "NAM"
+										"COUNTRY": "NAM",
+										"YEAR": 2018,
+										"DoctorsPer10k": 5.914
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "13.3",
-										"COUNTRY": "TUN"
+										"COUNTRY": "TUN",
+										"YEAR": 2017,
+										"DoctorsPer10k": 13.3
 									},
 									{
-										"YEAR": "2014",
-										"DoctorsPer10k": "61.094",
-										"COUNTRY": "SMR"
+										"COUNTRY": "SMR",
+										"YEAR": 2014,
+										"DoctorsPer10k": 61.094
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "15.844",
-										"COUNTRY": "IRN"
+										"COUNTRY": "IRN",
+										"YEAR": 2018,
+										"DoctorsPer10k": 15.844
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "63.528",
-										"COUNTRY": "LTU"
+										"COUNTRY": "LTU",
+										"YEAR": 2018,
+										"DoctorsPer10k": 63.528
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "26.236",
-										"COUNTRY": "CYP"
+										"COUNTRY": "CYP",
+										"YEAR": 2016,
+										"DoctorsPer10k": 26.236
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "2.096",
-										"COUNTRY": "ZWE"
+										"COUNTRY": "ZWE",
+										"YEAR": 2018,
+										"DoctorsPer10k": 2.096
 									},
 									{
-										"YEAR": "2015",
-										"DoctorsPer10k": "15.358",
-										"COUNTRY": "MYS"
+										"COUNTRY": "MYS",
+										"YEAR": 2015,
+										"DoctorsPer10k": 15.358
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "25.912",
-										"COUNTRY": "CHL"
+										"COUNTRY": "CHL",
+										"YEAR": 2018,
+										"DoctorsPer10k": 25.912
 									},
 									{
-										"YEAR": "2012",
-										"DoctorsPer10k": "5.841",
-										"COUNTRY": "MHL"
+										"COUNTRY": "MHL",
+										"YEAR": 2012,
+										"DoctorsPer10k": 5.841
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "25.331",
-										"COUNTRY": "MUS"
+										"COUNTRY": "MUS",
+										"YEAR": 2018,
+										"DoctorsPer10k": 25.331
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "23.105",
-										"COUNTRY": "CAN"
+										"COUNTRY": "CAN",
+										"YEAR": 2016,
+										"DoctorsPer10k": 23.105
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "21.848",
-										"COUNTRY": "COL"
+										"COUNTRY": "COL",
+										"YEAR": 2018,
+										"DoctorsPer10k": 21.848
 									},
 									{
-										"YEAR": "2015",
-										"DoctorsPer10k": "45.231",
-										"COUNTRY": "RUS"
+										"COUNTRY": "RUS",
+										"YEAR": 2015,
+										"DoctorsPer10k": 45.231
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "29.807",
-										"COUNTRY": "ROU"
+										"COUNTRY": "ROU",
+										"YEAR": 2017,
+										"DoctorsPer10k": 29.807
 									},
 									{
-										"YEAR": "2013",
-										"DoctorsPer10k": "3.984",
-										"COUNTRY": "KIR"
+										"COUNTRY": "KIR",
+										"YEAR": 2013,
+										"DoctorsPer10k": 3.984
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "40.013",
-										"COUNTRY": "ARG"
+										"COUNTRY": "ARG",
+										"YEAR": 2017,
+										"DoctorsPer10k": 40.013
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "11.45",
-										"COUNTRY": "BLZ"
+										"COUNTRY": "BLZ",
+										"YEAR": 2017,
+										"DoctorsPer10k": 11.45
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "3.285",
-										"COUNTRY": "SWZ"
+										"COUNTRY": "SWZ",
+										"YEAR": 2016,
+										"DoctorsPer10k": 3.285
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "40.099",
-										"COUNTRY": "DNK"
+										"COUNTRY": "DNK",
+										"YEAR": 2016,
+										"DoctorsPer10k": 40.099
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "41.675",
-										"COUNTRY": "TTO"
+										"COUNTRY": "TTO",
+										"YEAR": 2018,
+										"DoctorsPer10k": 41.675
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "40.88",
-										"COUNTRY": "ESP"
+										"COUNTRY": "ESP",
+										"YEAR": 2017,
+										"DoctorsPer10k": 40.88
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "1.959",
-										"COUNTRY": "KEN"
+										"COUNTRY": "KEN",
+										"YEAR": 2018,
+										"DoctorsPer10k": 1.959
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "10.041",
-										"COUNTRY": "LKA"
+										"COUNTRY": "LKA",
+										"YEAR": 2018,
+										"DoctorsPer10k": 10.041
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "6.912",
-										"COUNTRY": "WSM"
+										"COUNTRY": "WSM",
+										"YEAR": 2016,
+										"DoctorsPer10k": 6.912
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "45.627",
-										"COUNTRY": "MDV"
+										"COUNTRY": "MDV",
+										"YEAR": 2018,
+										"DoctorsPer10k": 45.627
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "28.827",
-										"COUNTRY": "LBN"
+										"COUNTRY": "LBN",
+										"YEAR": 2018,
+										"DoctorsPer10k": 28.827
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "44.833",
-										"COUNTRY": "EST"
+										"COUNTRY": "EST",
+										"YEAR": 2018,
+										"DoctorsPer10k": 44.833
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "2.146",
-										"COUNTRY": "AGO"
+										"COUNTRY": "AGO",
+										"YEAR": 2017,
+										"DoctorsPer10k": 2.146
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "2.013",
-										"COUNTRY": "SLB"
+										"COUNTRY": "SLB",
+										"YEAR": 2016,
+										"DoctorsPer10k": 2.013
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "41.326",
-										"COUNTRY": "IRL"
+										"COUNTRY": "IRL",
+										"YEAR": 2018,
+										"DoctorsPer10k": 41.326
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "42.856",
-										"COUNTRY": "SWE"
+										"COUNTRY": "SWE",
+										"YEAR": 2016,
+										"DoctorsPer10k": 42.856
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "6.819",
-										"COUNTRY": "GAB"
+										"COUNTRY": "GAB",
+										"YEAR": 2017,
+										"DoctorsPer10k": 6.819
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "4.494",
-										"COUNTRY": "NGA"
+										"COUNTRY": "NGA",
+										"YEAR": 2018,
+										"DoctorsPer10k": 4.494
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "9.839",
-										"COUNTRY": "HND"
+										"COUNTRY": "HND",
+										"YEAR": 2017,
+										"DoctorsPer10k": 9.839
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "30.861",
-										"COUNTRY": "SVN"
+										"COUNTRY": "SVN",
+										"YEAR": 2017,
+										"DoctorsPer10k": 30.861
 									},
 									{
-										"YEAR": "2015",
-										"DoctorsPer10k": "15.094",
-										"COUNTRY": "NRU"
+										"COUNTRY": "NRU",
+										"YEAR": 2015,
+										"DoctorsPer10k": 15.094
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "18.823",
-										"COUNTRY": "SLV"
+										"COUNTRY": "SLV",
+										"YEAR": 2016,
+										"DoctorsPer10k": 18.823
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "21.111",
-										"COUNTRY": "ECU"
+										"COUNTRY": "ECU",
+										"YEAR": 2016,
+										"DoctorsPer10k": 21.111
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "14.067",
-										"COUNTRY": "GRD"
+										"COUNTRY": "GRD",
+										"YEAR": 2017,
+										"DoctorsPer10k": 14.067
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "15.513",
-										"COUNTRY": "SYR"
+										"COUNTRY": "SYR",
+										"YEAR": 2016,
+										"DoctorsPer10k": 15.513
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "54.789",
-										"COUNTRY": "GRC"
+										"COUNTRY": "GRC",
+										"YEAR": 2017,
+										"DoctorsPer10k": 54.789
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "1.106",
-										"COUNTRY": "GIN"
+										"COUNTRY": "GIN",
+										"YEAR": 2016,
+										"DoctorsPer10k": 1.106
 									},
 									{
-										"YEAR": "2014",
-										"DoctorsPer10k": "14.124",
-										"COUNTRY": "COK"
+										"COUNTRY": "COK",
+										"YEAR": 2014,
+										"DoctorsPer10k": 14.124
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "22.936",
-										"COUNTRY": "SGP"
+										"COUNTRY": "SGP",
+										"YEAR": 2016,
+										"DoctorsPer10k": 22.936
 									},
 									{
-										"YEAR": "2014",
-										"DoctorsPer10k": "40.668",
-										"COUNTRY": "KAZ"
+										"COUNTRY": "KAZ",
+										"YEAR": 2014,
+										"DoctorsPer10k": 40.668
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "12.208",
-										"COUNTRY": "IND"
+										"COUNTRY": "IND",
+										"YEAR": 2018,
+										"DoctorsPer10k": 12.208
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "0.493",
-										"COUNTRY": "TCD"
+										"COUNTRY": "TCD",
+										"YEAR": 2017,
+										"DoctorsPer10k": 0.493
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "8.638",
-										"COUNTRY": "MMR"
+										"COUNTRY": "MMR",
+										"YEAR": 2018,
+										"DoctorsPer10k": 8.638
 									},
 									{
-										"YEAR": "2014",
-										"DoctorsPer10k": "4.758",
-										"COUNTRY": "KHM"
+										"COUNTRY": "KHM",
+										"YEAR": 2014,
+										"DoctorsPer10k": 4.758
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "30.709",
-										"COUNTRY": "BEL"
+										"COUNTRY": "BEL",
+										"YEAR": 2017,
+										"DoctorsPer10k": 30.709
 									},
 									{
-										"YEAR": "2015",
-										"DoctorsPer10k": "28.736",
-										"COUNTRY": "MKD"
+										"COUNTRY": "MKD",
+										"YEAR": 2015,
+										"DoctorsPer10k": 28.736
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "4.269",
-										"COUNTRY": "IDN"
+										"COUNTRY": "IDN",
+										"YEAR": 2018,
+										"DoctorsPer10k": 4.269
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "19.798",
-										"COUNTRY": "CHN"
+										"COUNTRY": "CHN",
+										"YEAR": 2017,
+										"DoctorsPer10k": 19.798
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "18.325",
-										"COUNTRY": "DZA"
+										"COUNTRY": "DZA",
+										"YEAR": 2018,
+										"DoctorsPer10k": 18.325
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "42.488",
-										"COUNTRY": "DEU"
+										"COUNTRY": "DEU",
+										"YEAR": 2017,
+										"DoctorsPer10k": 42.488
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "36.662",
-										"COUNTRY": "MDA"
+										"COUNTRY": "MDA",
+										"YEAR": 2017,
+										"DoctorsPer10k": 36.662
 									},
 									{
-										"YEAR": "2015",
-										"DoctorsPer10k": "40.332",
-										"COUNTRY": "BGR"
+										"COUNTRY": "BGR",
+										"YEAR": 2015,
+										"DoctorsPer10k": 40.332
 									},
 									{
-										"YEAR": "2014",
-										"DoctorsPer10k": "33.911",
-										"COUNTRY": "UZB"
+										"COUNTRY": "UZB",
+										"YEAR": 2014,
+										"DoctorsPer10k": 33.911
 									},
 									{
-										"YEAR": "2014",
-										"DoctorsPer10k": "77.778",
-										"COUNTRY": "MCO"
+										"COUNTRY": "MCO",
+										"YEAR": 2014,
+										"DoctorsPer10k": 77.778
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "24.115",
-										"COUNTRY": "JPN"
+										"COUNTRY": "JPN",
+										"YEAR": 2016,
+										"DoctorsPer10k": 24.115
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "31.131",
-										"COUNTRY": "SRB"
+										"COUNTRY": "SRB",
+										"YEAR": 2016,
+										"DoctorsPer10k": 31.131
 									},
 									{
-										"YEAR": "2016",
-										"DoctorsPer10k": "0.603",
-										"COUNTRY": "TZA"
+										"COUNTRY": "TZA",
+										"YEAR": 2016,
+										"DoctorsPer10k": 0.603
 									},
 									{
-										"YEAR": "2014",
-										"DoctorsPer10k": "34.741",
-										"COUNTRY": "KGZ"
+										"COUNTRY": "KGZ",
+										"YEAR": 2014,
+										"DoctorsPer10k": 34.741
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "7.809",
-										"COUNTRY": "LAO"
+										"COUNTRY": "LAO",
+										"YEAR": 2017,
+										"DoctorsPer10k": 7.809
 									},
 									{
-										"YEAR": "2014",
-										"DoctorsPer10k": "16.111",
-										"COUNTRY": "PLW"
+										"COUNTRY": "PLW",
+										"YEAR": 2014,
+										"DoctorsPer10k": 16.111
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "42.957",
-										"COUNTRY": "CHE"
+										"COUNTRY": "CHE",
+										"YEAR": 2017,
+										"DoctorsPer10k": 42.957
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "41.208",
-										"COUNTRY": "CZE"
+										"COUNTRY": "CZE",
+										"YEAR": 2018,
+										"DoctorsPer10k": 41.208
 									},
 									{
-										"YEAR": "2017",
-										"DoctorsPer10k": "12.717",
-										"COUNTRY": "PHL"
+										"COUNTRY": "PHL",
+										"YEAR": 2017,
+										"DoctorsPer10k": 12.717
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "1.849",
-										"COUNTRY": "BEN"
+										"COUNTRY": "BEN",
+										"YEAR": 2018,
+										"DoctorsPer10k": 1.849
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "11.38",
-										"COUNTRY": "EGY"
+										"COUNTRY": "EGY",
+										"YEAR": 2018,
+										"DoctorsPer10k": 11.38
 									},
 									{
-										"YEAR": "2018",
-										"DoctorsPer10k": "40.778",
-										"COUNTRY": "ISL"
+										"COUNTRY": "ISL",
+										"YEAR": 2018,
+										"DoctorsPer10k": 40.778
 									}
 								],
 								"schema": {
@@ -1031,16 +1031,16 @@
 				"name": "python"
 			},
 			"a365ComputeOptions": {
-				"id": "/subscriptions/9e5fd910-2fa6-4b1c-ad1a-596f02e9d94d/resourceGroups/azureDIY-RG-AUE/providers/Microsoft.Synapse/workspaces/azurediy-aue-sya/bigDataPools/azureDIY",
-				"name": "azureDIY",
+				"id": "/subscriptions/6f6081c0-3ae8-4f30-a576-96e46665aa5a/resourceGroups/azureDIY-aue-RG/providers/Microsoft.Synapse/workspaces/azurediy-aue-apu/bigDataPools/AzureDIY",
+				"name": "AzureDIY",
 				"type": "Spark",
-				"endpoint": "https://azurediy-aue-sya.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/azureDIY",
+				"endpoint": "https://azurediy-aue-apu.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/AzureDIY",
 				"auth": {
 					"type": "AAD",
 					"authResource": "https://dev.azuresynapse.net"
 				},
 				"sparkVersion": "2.4",
-				"nodeCount": 6,
+				"nodeCount": 3,
 				"cores": 4,
 				"memory": 28,
 				"automaticScaleJobs": false
@@ -1066,7 +1066,7 @@
 					]
 				},
 				"source": [
-					"account_name = \"azurediyauedls\"\r\n",
+					"account_name = \"azurediyaueadls\"\r\n",
 					"sourcezone = \"raw\"\r\n",
 					"sourcepath = \"GHODoctors\"\r\n",
 					"sourcename = \"/LatestDoctorCounts.csv\"\r\n",
@@ -1074,7 +1074,7 @@
 					"targetpath = \"refined\"\r\n",
 					"targetname = \"LatestDoctorCounts\""
 				],
-				"execution_count": 15
+				"execution_count": 3
 			},
 			{
 				"cell_type": "code",
@@ -1100,7 +1100,7 @@
 					"#relative_path = path\r\n",
 					"adls_path = 'abfss://%s@%s.dfs.core.windows.net/%s' % (sourcezone, account_name, sourcepath)"
 				],
-				"execution_count": 16
+				"execution_count": 4
 			},
 			{
 				"cell_type": "code",
@@ -1109,7 +1109,7 @@
 					"                .option('delimiter', ',') \\\r\n",
 					"                .csv(adls_path + sourcename)"
 				],
-				"execution_count": 17
+				"execution_count": 5
 			},
 			{
 				"cell_type": "code",
@@ -1131,7 +1131,7 @@
 					"doctorLatest = doctorLatest.withColumnRenamed(\"_c3\",'COUNTRY').withColumnRenamed(\"max(_c5)\",'YEAR').withColumnRenamed(\"max(_c15)\",'DoctorsPer10k')\r\n",
 					"display(doctorLatest)"
 				],
-				"execution_count": 18
+				"execution_count": 6
 			},
 			{
 				"cell_type": "code",
@@ -1175,7 +1175,7 @@
 					"\r\n",
 					"doctorLatest.write.mode(\"overwrite\").format(\"parquet\").save(target_folder_path)"
 				],
-				"execution_count": 19
+				"execution_count": 7
 			}
 		]
 	}

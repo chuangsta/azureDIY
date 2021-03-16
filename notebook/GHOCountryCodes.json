@@ -4,7 +4,7 @@
 		"nbformat": 4,
 		"nbformat_minor": 2,
 		"bigDataPool": {
-			"referenceName": "azureDIY",
+			"referenceName": "AzureDIY",
 			"type": "BigDataPoolReference"
 		},
 		"sessionProperties": {
@@ -32,18 +32,18 @@
 				"name": "python"
 			},
 			"a365ComputeOptions": {
-				"id": "/subscriptions/9e5fd910-2fa6-4b1c-ad1a-596f02e9d94d/resourceGroups/azureDIY-RG-AUE/providers/Microsoft.Synapse/workspaces/azurediy-aue-sya/bigDataPools/azureDIY",
-				"name": "azureDIY",
+				"id": "/subscriptions/6f6081c0-3ae8-4f30-a576-96e46665aa5a/resourceGroups/azureDIY-aue-RG/providers/Microsoft.Synapse/workspaces/azurediy-aue-apu/bigDataPools/AzureDIY",
+				"name": "AzureDIY",
 				"type": "Spark",
-				"endpoint": "https://azurediy-aue-sya.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/azureDIY",
+				"endpoint": "https://azurediy-aue-apu.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/AzureDIY",
 				"auth": {
 					"type": "AAD",
 					"authResource": "https://dev.azuresynapse.net"
 				},
 				"sparkVersion": "2.4",
-				"nodeCount": 4,
-				"cores": 8,
-				"memory": 56,
+				"nodeCount": 3,
+				"cores": 4,
+				"memory": 28,
 				"automaticScaleJobs": false
 			},
 			"sessionKeepAliveTimeout": 30
@@ -67,7 +67,7 @@
 					]
 				},
 				"source": [
-					"account_name = \"azurediyauedls\"\r\n",
+					"account_name = \"azurediyaueadls\"\r\n",
 					"sourcezone = \"raw\"\r\n",
 					"sourcepath = \"CSSEGISandData\"\r\n",
 					"sourcename = \"/UID_ISO_FIPS_LookUp_Table.csv\"\r\n",
@@ -75,7 +75,7 @@
 					"targetpath = \"refined\"\r\n",
 					"targetname = \"CountryCodes\""
 				],
-				"execution_count": 5
+				"execution_count": 1
 			},
 			{
 				"cell_type": "code",
@@ -102,7 +102,7 @@
 					"adls_path = 'abfss://%s@%s.dfs.core.windows.net/%s' % (sourcezone, account_name, sourcepath)\r\n",
 					""
 				],
-				"execution_count": 6
+				"execution_count": 2
 			},
 			{
 				"cell_type": "code",
@@ -115,7 +115,7 @@
 					"                .option('delimiter', ',') \\\r\n",
 					"                .csv(adls_path + sourcename)"
 				],
-				"execution_count": 7
+				"execution_count": 3
 			},
 			{
 				"cell_type": "code",
@@ -134,7 +134,7 @@
 				"source": [
 					"countrycodeiso3= countryCodeDF.select(\"iso3\",\"Country_Region\").distinct()"
 				],
-				"execution_count": 9
+				"execution_count": 4
 			},
 			{
 				"cell_type": "code",
@@ -159,7 +159,7 @@
 					"#countrycodeiso3.write.mode(\"overwrite\").format(\"parquet\").option('SaveMode').save(target_folder_path)\r\n",
 					"countrycodeiso3.write.mode(\"overwrite\").format(\"parquet\").save(target_folder_path)"
 				],
-				"execution_count": 12
+				"execution_count": 5
 			}
 		]
 	}

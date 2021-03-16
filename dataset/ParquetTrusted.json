@@ -1,0 +1,41 @@
+{
+	"name": "ParquetTrusted",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeGen2",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"Zone": {
+				"type": "string"
+			},
+			"Path": {
+				"type": "string"
+			},
+			"Name": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().Name",
+					"type": "Expression"
+				},
+				"folderPath": {
+					"value": "@dataset().Path",
+					"type": "Expression"
+				},
+				"fileSystem": {
+					"value": "@dataset().Zone",
+					"type": "Expression"
+				}
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}

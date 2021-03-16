@@ -4,7 +4,7 @@
 		"nbformat": 4,
 		"nbformat_minor": 2,
 		"bigDataPool": {
-			"referenceName": "azureDIY",
+			"referenceName": "AzureDIY",
 			"type": "BigDataPoolReference"
 		},
 		"sessionProperties": {
@@ -24,1162 +24,1162 @@
 			"synapse_widget": {
 				"version": "0.1",
 				"state": {
-					"783d209c-5a22-4471-81d3-e15767c00004": {
+					"f68a5fa0-aef8-490e-aedc-efdb7eef738a": {
 						"type": "Synapse.DataFrame",
 						"sync_state": {
 							"table": {
 								"rows": [
 									{
-										"Deaths": "140",
-										"Recovered": "3607",
 										"Country_Region": "Chad",
-										"Confirmed": "4161"
+										"Confirmed": 4161,
+										"Deaths": 140,
+										"Recovered": 3607
 									},
 									{
-										"Deaths": "3294",
-										"Recovered": "139483",
 										"Country_Region": "Paraguay",
-										"Confirmed": "166969"
+										"Confirmed": 166969,
+										"Deaths": 3294,
+										"Recovered": 139483
 									},
 									{
-										"Deaths": "87253",
-										"Recovered": "3856400",
 										"Country_Region": "Russia",
-										"Confirmed": "4263785"
+										"Confirmed": 4263785,
+										"Deaths": 87253,
+										"Recovered": 3856400
 									},
 									{
-										"Deaths": "650",
-										"Recovered": "1442",
 										"Country_Region": "Yemen",
-										"Confirmed": "2444"
+										"Confirmed": 2444,
+										"Deaths": 650,
+										"Recovered": 1442
 									},
 									{
-										"Deaths": "907",
-										"Recovered": "30369",
 										"Country_Region": "Senegal",
-										"Confirmed": "35632"
+										"Confirmed": 35632,
+										"Deaths": 907,
+										"Recovered": 30369
 									},
 									{
-										"Deaths": "152",
-										"Recovered": "15022",
 										"Country_Region": "Cabo Verde",
-										"Confirmed": "15724"
+										"Confirmed": 15724,
+										"Deaths": 152,
+										"Recovered": 15022
 									},
 									{
-										"Deaths": "13003",
-										"Recovered": "0",
 										"Country_Region": "Sweden",
-										"Confirmed": "684961"
+										"Confirmed": 684961,
+										"Deaths": 13003,
+										"Recovered": 0
 									},
 									{
-										"Deaths": "200",
-										"Recovered": "8106",
 										"Country_Region": "Guyana",
-										"Confirmed": "8772"
+										"Confirmed": 8772,
+										"Deaths": 200,
+										"Recovered": 8106
 									},
 									{
-										"Deaths": "3200",
-										"Recovered": "131658",
 										"Country_Region": "Burma",
-										"Confirmed": "142023"
+										"Confirmed": 142023,
+										"Deaths": 3200,
+										"Recovered": 131658
 									},
 									{
-										"Deaths": "7",
-										"Recovered": "2436",
 										"Country_Region": "Eritrea",
-										"Confirmed": "2944"
+										"Confirmed": 2944,
+										"Deaths": 7,
+										"Recovered": 2436
 									},
 									{
-										"Deaths": "12465",
-										"Recovered": "535350",
 										"Country_Region": "Philippines",
-										"Confirmed": "591138"
+										"Confirmed": 591138,
+										"Deaths": 12465,
+										"Recovered": 535350
 									},
 									{
-										"Deaths": "63",
-										"Recovered": "5931",
 										"Country_Region": "Djibouti",
-										"Confirmed": "6134"
+										"Confirmed": 6134,
+										"Deaths": 63,
+										"Recovered": 5931
 									},
 									{
-										"Deaths": "1166",
-										"Recovered": "289452",
 										"Country_Region": "Malaysia",
-										"Confirmed": "311777"
+										"Confirmed": 311777,
+										"Deaths": 1166,
+										"Recovered": 289452
 									},
 									{
-										"Deaths": "29",
-										"Recovered": "59879",
 										"Country_Region": "Singapore",
-										"Confirmed": "60020"
+										"Confirmed": 60020,
+										"Deaths": 29,
+										"Recovered": 59879
 									},
 									{
-										"Deaths": "2",
-										"Recovered": "55",
 										"Country_Region": "Fiji",
-										"Confirmed": "63"
+										"Confirmed": 63,
+										"Deaths": 2,
+										"Recovered": 55
 									},
 									{
-										"Deaths": "28965",
-										"Recovered": "2616139",
 										"Country_Region": "Turkey",
-										"Confirmed": "2769230"
+										"Confirmed": 2769230,
+										"Deaths": 28965,
+										"Recovered": 2616139
 									},
 									{
-										"Deaths": "1067",
-										"Recovered": "21932",
 										"Country_Region": "Malawi",
-										"Confirmed": "32398"
+										"Confirmed": 32398,
+										"Deaths": 1067,
+										"Recovered": 21932
 									},
 									{
-										"Deaths": "13548",
-										"Recovered": "657032",
 										"Country_Region": "Iraq",
-										"Confirmed": "723189"
+										"Confirmed": 723189,
+										"Deaths": 13548,
+										"Recovered": 657032
 									},
 									{
-										"Deaths": "71951",
-										"Recovered": "2308094",
 										"Country_Region": "Germany",
-										"Confirmed": "2502151"
+										"Confirmed": 2502151,
+										"Deaths": 71951,
+										"Recovered": 2308094
 									},
 									{
-										"Deaths": "146",
-										"Recovered": "3410",
 										"Country_Region": "Comoros",
-										"Confirmed": "3596"
+										"Confirmed": 3596,
+										"Deaths": 146,
+										"Recovered": 3410
 									},
 									{
-										"Deaths": "2449",
-										"Recovered": "49369",
 										"Country_Region": "Afghanistan",
-										"Confirmed": "55840"
+										"Confirmed": 55840,
+										"Deaths": 2449,
+										"Recovered": 49369
 									},
 									{
-										"Deaths": "0",
-										"Recovered": "510",
 										"Country_Region": "Cambodia",
-										"Confirmed": "987"
+										"Confirmed": 987,
+										"Deaths": 0,
+										"Recovered": 510
 									},
 									{
-										"Deaths": "4900",
-										"Recovered": "362765",
 										"Country_Region": "Jordan",
-										"Confirmed": "421415"
+										"Confirmed": 421415,
+										"Deaths": 4900,
+										"Recovered": 362765
 									},
 									{
-										"Deaths": "64",
-										"Recovered": "17979",
 										"Country_Region": "Maldives",
-										"Confirmed": "20663"
+										"Confirmed": 20663,
+										"Deaths": 64,
+										"Recovered": 17979
 									},
 									{
-										"Deaths": "267",
-										"Recovered": "17810",
 										"Country_Region": "Rwanda",
-										"Confirmed": "19509"
+										"Confirmed": 19509,
+										"Deaths": 267,
+										"Recovered": 17810
 									},
 									{
-										"Deaths": "1895",
-										"Recovered": "23156",
 										"Country_Region": "Sudan",
-										"Confirmed": "30479"
+										"Confirmed": 30479,
+										"Deaths": 1895,
+										"Recovered": 23156
 									},
 									{
-										"Deaths": "88597",
-										"Recovered": "271693",
 										"Country_Region": "France",
-										"Confirmed": "3942243"
+										"Confirmed": 3942243,
+										"Deaths": 88597,
+										"Recovered": 271693
 									},
 									{
-										"Deaths": "6705",
-										"Recovered": "93764",
 										"Country_Region": "Greece",
-										"Confirmed": "203978"
+										"Confirmed": 203978,
+										"Deaths": 6705,
+										"Recovered": 93764
 									},
 									{
-										"Deaths": "1640",
-										"Recovered": "61687",
 										"Country_Region": "Kosovo",
-										"Confirmed": "72600"
+										"Confirmed": 72600,
+										"Deaths": 1640,
+										"Recovered": 61687
 									},
 									{
-										"Deaths": "2",
-										"Recovered": "7",
 										"Country_Region": "MS Zaandam",
-										"Confirmed": "9"
+										"Confirmed": 9,
+										"Deaths": 2,
+										"Recovered": 7
 									},
 									{
-										"Deaths": "493",
-										"Recovered": "81769",
 										"Country_Region": "Sri Lanka",
-										"Confirmed": "85150"
+										"Confirmed": 85150,
+										"Deaths": 493,
+										"Recovered": 81769
 									},
 									{
-										"Deaths": "0",
-										"Recovered": "130",
 										"Country_Region": "Dominica",
-										"Confirmed": "144"
+										"Confirmed": 144,
+										"Deaths": 0,
+										"Recovered": 130
 									},
 									{
-										"Deaths": "3010",
-										"Recovered": "78946",
 										"Country_Region": "Algeria",
-										"Confirmed": "114104"
+										"Confirmed": 114104,
+										"Deaths": 3010,
+										"Recovered": 78946
 									},
 									{
-										"Deaths": "96",
-										"Recovered": "5737",
 										"Country_Region": "Equatorial Guinea",
-										"Confirmed": "6329"
+										"Confirmed": 6329,
+										"Deaths": 96,
+										"Recovered": 5737
 									},
 									{
-										"Deaths": "90",
-										"Recovered": "6258",
 										"Country_Region": "Togo",
-										"Confirmed": "7521"
+										"Confirmed": 7521,
+										"Deaths": 90,
+										"Recovered": 6258
 									},
 									{
-										"Deaths": "7739",
-										"Recovered": "255300",
 										"Country_Region": "Slovakia",
-										"Confirmed": "322104"
+										"Confirmed": 322104,
+										"Deaths": 7739,
+										"Recovered": 255300
 									},
 									{
-										"Deaths": "52870",
-										"Recovered": "1940317",
 										"Country_Region": "Argentina",
-										"Confirmed": "2146714"
+										"Confirmed": 2146714,
+										"Deaths": 52870,
+										"Recovered": 1940317
 									},
 									{
-										"Deaths": "512",
-										"Recovered": "19640",
 										"Country_Region": "Angola",
-										"Confirmed": "21055"
+										"Confirmed": 21055,
+										"Deaths": 512,
+										"Recovered": 19640
 									},
 									{
-										"Deaths": "22240",
-										"Recovered": "0",
 										"Country_Region": "Belgium",
-										"Confirmed": "785809"
+										"Confirmed": 785809,
+										"Deaths": 22240,
+										"Recovered": 0
 									},
 									{
-										"Deaths": "76",
-										"Recovered": "3426",
 										"Country_Region": "San Marino",
-										"Confirmed": "3922"
+										"Confirmed": 3922,
+										"Deaths": 76,
+										"Recovered": 3426
 									},
 									{
-										"Deaths": "16020",
-										"Recovered": "247898",
 										"Country_Region": "Ecuador",
-										"Confirmed": "292943"
+										"Confirmed": 292943,
+										"Deaths": 16020,
+										"Recovered": 247898
 									},
 									{
-										"Deaths": "262",
-										"Recovered": "155700",
 										"Country_Region": "Qatar",
-										"Confirmed": "166475"
+										"Confirmed": 166475,
+										"Deaths": 262,
+										"Recovered": 155700
 									},
 									{
-										"Deaths": "307",
-										"Recovered": "3888",
 										"Country_Region": "Lesotho",
-										"Confirmed": "10523"
+										"Confirmed": 10523,
+										"Deaths": 307,
+										"Recovered": 3888
 									},
 									{
-										"Deaths": "1918",
-										"Recovered": "74352",
 										"Country_Region": "Albania",
-										"Confirmed": "112078"
+										"Confirmed": 112078,
+										"Deaths": 1918,
+										"Recovered": 74352
 									},
 									{
-										"Deaths": "300",
-										"Recovered": "19543",
 										"Country_Region": "Madagascar",
-										"Confirmed": "20155"
+										"Confirmed": 20155,
+										"Deaths": 300,
+										"Recovered": 19543
 									},
 									{
-										"Deaths": "767",
-										"Recovered": "46000",
 										"Country_Region": "Finland",
-										"Confirmed": "61552"
+										"Confirmed": 61552,
+										"Deaths": 767,
+										"Recovered": 46000
 									},
 									{
-										"Deaths": "640",
-										"Recovered": "80619",
 										"Country_Region": "Ghana",
-										"Confirmed": "86092"
+										"Confirmed": 86092,
+										"Deaths": 640,
+										"Recovered": 80619
 									},
 									{
-										"Deaths": "174",
-										"Recovered": "4225",
 										"Country_Region": "Nicaragua",
-										"Confirmed": "6489"
+										"Confirmed": 6489,
+										"Deaths": 174,
+										"Recovered": 4225
 									},
 									{
-										"Deaths": "75",
-										"Recovered": "4963",
 										"Country_Region": "Benin",
-										"Confirmed": "6071"
+										"Confirmed": 6071,
+										"Deaths": 75,
+										"Recovered": 4963
 									},
 									{
-										"Deaths": "47491",
-										"Recovered": "1262722",
 										"Country_Region": "Peru",
-										"Confirmed": "1358294"
+										"Confirmed": 1358294,
+										"Deaths": 47491,
+										"Recovered": 1262722
 									},
 									{
-										"Deaths": "79",
-										"Recovered": "2678",
 										"Country_Region": "Sierra Leone",
-										"Confirmed": "3918"
+										"Confirmed": 3918,
+										"Deaths": 79,
+										"Recovered": 2678
 									},
 									{
-										"Deaths": "181",
-										"Recovered": "7415",
 										"Country_Region": "Bahamas",
-										"Confirmed": "8600"
+										"Confirmed": 8600,
+										"Deaths": 181,
+										"Recovered": 7415
 									},
 									{
-										"Deaths": "4838",
-										"Recovered": "95835",
 										"Country_Region": "China",
-										"Confirmed": "101097"
+										"Confirmed": 101097,
+										"Deaths": 4838,
+										"Recovered": 95835
 									},
 									{
-										"Deaths": "157756",
-										"Recovered": "10868520",
 										"Country_Region": "India",
-										"Confirmed": "11210799"
+										"Confirmed": 11210799,
+										"Deaths": 157756,
+										"Recovered": 10868520
 									},
 									{
-										"Deaths": "2029",
-										"Recovered": "285036",
 										"Country_Region": "Belarus",
-										"Confirmed": "294432"
+										"Confirmed": 294432,
+										"Deaths": 2029,
+										"Recovered": 285036
 									},
 									{
-										"Deaths": "1120",
-										"Recovered": "185231",
 										"Country_Region": "Kuwait",
-										"Confirmed": "199428"
+										"Confirmed": 199428,
+										"Deaths": 1120,
+										"Recovered": 185231
 									},
 									{
-										"Deaths": "329",
-										"Recovered": "20484",
 										"Country_Region": "Malta",
-										"Confirmed": "24216"
+										"Confirmed": 24216,
+										"Deaths": 329,
+										"Recovered": 20484
 									},
 									{
-										"Deaths": "0",
-										"Recovered": "94",
 										"Country_Region": "Timor-Leste",
-										"Confirmed": "119"
+										"Confirmed": 119,
+										"Deaths": 0,
+										"Recovered": 94
 									},
 									{
-										"Deaths": "31",
-										"Recovered": "1544",
 										"Country_Region": "Sao Tome and Principe",
-										"Confirmed": "1944"
+										"Confirmed": 1944,
+										"Deaths": 31,
+										"Recovered": 1544
 									},
 									{
-										"Deaths": "0",
-										"Recovered": "4",
 										"Country_Region": "Marshall Islands",
-										"Confirmed": "4"
+										"Confirmed": 4,
+										"Deaths": 0,
+										"Recovered": 4
 									},
 									{
-										"Deaths": "294",
-										"Recovered": "3932",
 										"Country_Region": "Somalia",
-										"Confirmed": "8041"
+										"Confirmed": 8041,
+										"Deaths": 294,
+										"Recovered": 3932
 									},
 									{
-										"Deaths": "21008",
-										"Recovered": "801537",
 										"Country_Region": "Chile",
-										"Confirmed": "850483"
+										"Confirmed": 850483,
+										"Deaths": 21008,
+										"Recovered": 801537
 									},
 									{
-										"Deaths": "90",
-										"Recovered": "13218",
 										"Country_Region": "Tajikistan",
-										"Confirmed": "13308"
+										"Confirmed": 13308,
+										"Deaths": 90,
+										"Recovered": 13218
 									},
 									{
-										"Deaths": "5585",
-										"Recovered": "236765",
 										"Country_Region": "Croatia",
-										"Confirmed": "246120"
+										"Confirmed": 246120,
+										"Deaths": 5585,
+										"Recovered": 236765
 									},
 									{
-										"Deaths": "3",
-										"Recovered": "773",
 										"Country_Region": "Burundi",
-										"Confirmed": "2299"
+										"Confirmed": 2299,
+										"Deaths": 3,
+										"Recovered": 773
 									},
 									{
-										"Deaths": "112",
-										"Recovered": "10599",
 										"Country_Region": "Andorra",
-										"Confirmed": "11019"
+										"Confirmed": 11019,
+										"Deaths": 112,
+										"Recovered": 10599
 									},
 									{
-										"Deaths": "11807",
-										"Recovered": "197427",
 										"Country_Region": "Bolivia",
-										"Confirmed": "253950"
+										"Confirmed": 253950,
+										"Deaths": 11807,
+										"Recovered": 197427
 									},
 									{
-										"Deaths": "1964",
-										"Recovered": "137645",
 										"Country_Region": "Nigeria",
-										"Confirmed": "158237"
+										"Confirmed": 158237,
+										"Deaths": 1964,
+										"Recovered": 137645
 									},
 									{
-										"Deaths": "90",
-										"Recovered": "13495",
 										"Country_Region": "Gabon",
-										"Confirmed": "15625"
+										"Confirmed": 15625,
+										"Deaths": 90,
+										"Recovered": 13495
 									},
 									{
-										"Deaths": "99578",
-										"Recovered": "2481372",
 										"Country_Region": "Italy",
-										"Confirmed": "3046762"
+										"Confirmed": 3046762,
+										"Deaths": 99578,
+										"Recovered": 2481372
 									},
 									{
-										"Deaths": "175",
-										"Recovered": "8464",
 										"Country_Region": "Suriname",
-										"Confirmed": "8971"
+										"Confirmed": 8971,
+										"Deaths": 175,
+										"Recovered": 8464
 									},
 									{
-										"Deaths": "3321",
-										"Recovered": "188103",
 										"Country_Region": "Lithuania",
-										"Confirmed": "201799"
+										"Confirmed": 201799,
+										"Deaths": 3321,
+										"Recovered": 188103
 									},
 									{
-										"Deaths": "632",
-										"Recovered": "17998",
 										"Country_Region": "Norway",
-										"Confirmed": "74546"
+										"Confirmed": 74546,
+										"Deaths": 632,
+										"Recovered": 17998
 									},
 									{
-										"Deaths": "71138",
-										"Recovered": "150376",
 										"Country_Region": "Spain",
-										"Confirmed": "3149012"
+										"Confirmed": 3149012,
+										"Deaths": 71138,
+										"Recovered": 150376
 									},
 									{
-										"Deaths": "344",
-										"Recovered": "49889",
 										"Country_Region": "Cuba",
-										"Confirmed": "54835"
+										"Confirmed": 54835,
+										"Deaths": 344,
+										"Recovered": 49889
 									},
 									{
-										"Deaths": "442",
-										"Recovered": "16656",
 										"Country_Region": "Mauritania",
-										"Confirmed": "17309"
+										"Confirmed": 17309,
+										"Deaths": 442,
+										"Recovered": 16656
 									},
 									{
-										"Deaths": "21558",
-										"Recovered": "1126420",
 										"Country_Region": "Czechia",
-										"Confirmed": "1312164"
+										"Confirmed": 1312164,
+										"Deaths": 21558,
+										"Recovered": 1126420
 									},
 									{
-										"Deaths": "712",
-										"Recovered": "22432",
 										"Country_Region": "Congo (Kinshasa)",
-										"Confirmed": "26469"
+										"Confirmed": 26469,
+										"Deaths": 712,
+										"Recovered": 22432
 									},
 									{
-										"Deaths": "63",
-										"Recovered": "4920",
 										"Country_Region": "Central African Republic",
-										"Confirmed": "5018"
+										"Confirmed": 5018,
+										"Deaths": 63,
+										"Recovered": 4920
 									},
 									{
-										"Deaths": "2378",
-										"Recovered": "205623",
 										"Country_Region": "Denmark",
-										"Confirmed": "215015"
+										"Confirmed": 215015,
+										"Deaths": 2378,
+										"Recovered": 205623
 									},
 									{
-										"Deaths": "172",
-										"Recovered": "4250",
 										"Country_Region": "Niger",
-										"Confirmed": "4740"
+										"Confirmed": 4740,
+										"Deaths": 172,
+										"Recovered": 4250
 									},
 									{
-										"Deaths": "8451",
-										"Recovered": "501966",
 										"Country_Region": "Bangladesh",
-										"Confirmed": "549724"
+										"Confirmed": 549724,
+										"Deaths": 8451,
+										"Recovered": 501966
 									},
 									{
-										"Deaths": "37",
-										"Recovered": "2754",
 										"Country_Region": "Barbados",
-										"Confirmed": "3264"
+										"Confirmed": 3264,
+										"Deaths": 37,
+										"Recovered": 2754
 									},
 									{
-										"Deaths": "60594",
-										"Recovered": "1435357",
 										"Country_Region": "Iran",
-										"Confirmed": "1681682"
+										"Confirmed": 1681682,
+										"Deaths": 60594,
+										"Recovered": 1435357
 									},
 									{
-										"Deaths": "524362",
-										"Recovered": "0",
 										"Country_Region": "US",
-										"Confirmed": "28952970"
+										"Confirmed": 29022116,
+										"Deaths": 524731,
+										"Recovered": 0
 									},
 									{
-										"Deaths": "4419",
-										"Recovered": "23364",
 										"Country_Region": "Ireland",
-										"Confirmed": "222699"
+										"Confirmed": 222699,
+										"Deaths": 4419,
+										"Recovered": 23364
 									},
 									{
-										"Deaths": "54",
-										"Recovered": "2488",
 										"Country_Region": "Liechtenstein",
-										"Confirmed": "2589"
+										"Confirmed": 2589,
+										"Deaths": 54,
+										"Recovered": 2488
 									},
 									{
-										"Deaths": "0",
-										"Recovered": "42",
 										"Country_Region": "Laos",
-										"Confirmed": "47"
+										"Confirmed": 47,
+										"Deaths": 0,
+										"Recovered": 42
 									},
 									{
-										"Deaths": "85",
-										"Recovered": "25686",
 										"Country_Region": "Thailand",
-										"Confirmed": "26305"
+										"Confirmed": 26305,
+										"Deaths": 85,
+										"Recovered": 25686
 									},
 									{
-										"Deaths": "1",
-										"Recovered": "866",
 										"Country_Region": "Bhutan",
-										"Confirmed": "868"
+										"Confirmed": 868,
+										"Deaths": 1,
+										"Recovered": 866
 									},
 									{
-										"Deaths": "26",
-										"Recovered": "1820",
 										"Country_Region": "Monaco",
-										"Confirmed": "2019"
+										"Confirmed": 2019,
+										"Deaths": 26,
+										"Recovered": 1820
 									},
 									{
-										"Deaths": "8676",
-										"Recovered": "471919",
 										"Country_Region": "Morocco",
-										"Confirmed": "485974"
+										"Confirmed": 485974,
+										"Deaths": 8676,
+										"Recovered": 471919
 									},
 									{
-										"Deaths": "5910",
-										"Recovered": "331233",
 										"Country_Region": "Panama",
-										"Confirmed": "344477"
+										"Confirmed": 344477,
+										"Deaths": 5910,
+										"Recovered": 331233
 									},
 									{
-										"Deaths": "28392",
-										"Recovered": "1238321",
 										"Country_Region": "Ukraine",
-										"Confirmed": "1442457"
+										"Confirmed": 1442457,
+										"Deaths": 28392,
+										"Recovered": 1238321
 									},
 									{
-										"Deaths": "1378",
-										"Recovered": "133934",
 										"Country_Region": "Venezuela",
-										"Confirmed": "141885"
+										"Confirmed": 141885,
+										"Deaths": 1378,
+										"Recovered": 133934
 									},
 									{
-										"Deaths": "29",
-										"Recovered": "6020",
 										"Country_Region": "Iceland",
-										"Confirmed": "6059"
+										"Confirmed": 6059,
+										"Deaths": 29,
+										"Recovered": 6020
 									},
 									{
-										"Deaths": "5856",
-										"Recovered": "753081",
 										"Country_Region": "Israel",
-										"Confirmed": "799727"
+										"Confirmed": 799727,
+										"Deaths": 5856,
+										"Recovered": 753081
 									},
 									{
-										"Deaths": "0",
-										"Recovered": "15",
 										"Country_Region": "Holy See",
-										"Confirmed": "27"
+										"Confirmed": 27,
+										"Deaths": 0,
+										"Recovered": 15
 									},
 									{
-										"Deaths": "0",
-										"Recovered": "41",
 										"Country_Region": "Saint Kitts and Nevis",
-										"Confirmed": "41"
+										"Confirmed": 41,
+										"Deaths": 0,
+										"Recovered": 41
 									},
 									{
-										"Deaths": "1583",
-										"Recovered": "133491",
 										"Country_Region": "Oman",
-										"Confirmed": "142896"
+										"Confirmed": 142896,
+										"Deaths": 1583,
+										"Recovered": 133491
 									},
 									{
-										"Deaths": "10",
-										"Recovered": "932",
 										"Country_Region": "Taiwan*",
-										"Confirmed": "967"
+										"Confirmed": 967,
+										"Deaths": 10,
+										"Recovered": 932
 									},
 									{
-										"Deaths": "232",
-										"Recovered": "2057",
 										"Country_Region": "Cyprus",
-										"Confirmed": "36575"
+										"Confirmed": 36575,
+										"Deaths": 232,
+										"Recovered": 2057
 									},
 									{
-										"Deaths": "645",
-										"Recovered": "54175",
 										"Country_Region": "Uruguay",
-										"Confirmed": "63010"
+										"Confirmed": 63010,
+										"Deaths": 645,
+										"Recovered": 54175
 									},
 									{
-										"Deaths": "200",
-										"Recovered": "32513",
 										"Country_Region": "Cote d'Ivoire",
-										"Confirmed": "34935"
+										"Confirmed": 34935,
+										"Deaths": 200,
+										"Recovered": 32513
 									},
 									{
-										"Deaths": "190357",
-										"Recovered": "1666658",
 										"Country_Region": "Mexico",
-										"Confirmed": "2125866"
+										"Confirmed": 2125866,
+										"Deaths": 190357,
+										"Recovered": 1666658
 									},
 									{
-										"Deaths": "644",
-										"Recovered": "55161",
 										"Country_Region": "Estonia",
-										"Confirmed": "73684"
+										"Confirmed": 73684,
+										"Deaths": 644,
+										"Recovered": 55161
 									},
 									{
-										"Deaths": "3567",
-										"Recovered": "266344",
 										"Country_Region": "Georgia",
-										"Confirmed": "272617"
+										"Confirmed": 272617,
+										"Deaths": 3567,
+										"Recovered": 266344
 									},
 									{
-										"Deaths": "1059",
-										"Recovered": "69209",
 										"Country_Region": "Montenegro",
-										"Confirmed": "79237"
+										"Confirmed": 79237,
+										"Deaths": 1059,
+										"Recovered": 69209
 									},
 									{
-										"Deaths": "1485",
-										"Recovered": "33805",
 										"Country_Region": "Zimbabwe",
-										"Confirmed": "36260"
+										"Confirmed": 36260,
+										"Deaths": 1485,
+										"Recovered": 33805
 									},
 									{
-										"Deaths": "37154",
-										"Recovered": "1189510",
 										"Country_Region": "Indonesia",
-										"Confirmed": "1373836"
+										"Confirmed": 1373836,
+										"Deaths": 37154,
+										"Recovered": 1189510
 									},
 									{
-										"Deaths": "8",
-										"Recovered": "949",
 										"Country_Region": "Saint Vincent and the Grenadines",
-										"Confirmed": "1645"
+										"Confirmed": 1645,
+										"Deaths": 8,
+										"Recovered": 949
 									},
 									{
-										"Deaths": "6467",
-										"Recovered": "164564",
 										"Country_Region": "Guatemala",
-										"Confirmed": "178337"
+										"Confirmed": 178337,
+										"Deaths": 6467,
+										"Recovered": 164564
 									},
 									{
-										"Deaths": "2",
-										"Recovered": "2481",
 										"Country_Region": "Mongolia",
-										"Confirmed": "3228"
+										"Confirmed": 3228,
+										"Deaths": 2,
+										"Recovered": 2481
 									},
 									{
-										"Deaths": "3238",
-										"Recovered": "229591",
 										"Country_Region": "Azerbaijan",
-										"Confirmed": "236365"
+										"Confirmed": 236365,
+										"Deaths": 3238,
+										"Recovered": 229591
 									},
 									{
-										"Deaths": "2236",
-										"Recovered": "124712",
 										"Country_Region": "Libya",
-										"Confirmed": "137482"
+										"Confirmed": 137482,
+										"Deaths": 2236,
+										"Recovered": 124712
 									},
 									{
-										"Deaths": "1",
-										"Recovered": "147",
 										"Country_Region": "Grenada",
-										"Confirmed": "148"
+										"Confirmed": 148,
+										"Deaths": 1,
+										"Recovered": 147
 									},
 									{
-										"Deaths": "3219",
-										"Recovered": "164654",
 										"Country_Region": "Armenia",
-										"Confirmed": "174257"
+										"Confirmed": 174257,
+										"Deaths": 3219,
+										"Recovered": 164654
 									},
 									{
-										"Deaths": "85",
-										"Recovered": "1892",
 										"Country_Region": "Liberia",
-										"Confirmed": "2024"
+										"Confirmed": 2024,
+										"Deaths": 85,
+										"Recovered": 1892
 									},
 									{
-										"Deaths": "8167",
-										"Recovered": "202123",
 										"Country_Region": "Tunisia",
-										"Confirmed": "237028"
+										"Confirmed": 237028,
+										"Deaths": 8167,
+										"Recovered": 202123
 									},
 									{
-										"Deaths": "4247",
-										"Recovered": "67900",
 										"Country_Region": "Honduras",
-										"Confirmed": "173020"
+										"Confirmed": 173020,
+										"Deaths": 4247,
+										"Recovered": 67900
 									},
 									{
-										"Deaths": "1058",
-										"Recovered": "10293",
 										"Country_Region": "Syria",
-										"Confirmed": "15925"
+										"Confirmed": 15925,
+										"Deaths": 1058,
+										"Recovered": 10293
 									},
 									{
-										"Deaths": "139",
-										"Recovered": "7497",
 										"Country_Region": "Trinidad and Tobago",
-										"Confirmed": "7732"
+										"Confirmed": 7732,
+										"Deaths": 139,
+										"Recovered": 7497
 									},
 									{
-										"Deaths": "131",
-										"Recovered": "7514",
 										"Country_Region": "Congo (Brazzaville)",
-										"Confirmed": "9179"
+										"Confirmed": 9179,
+										"Deaths": 131,
+										"Recovered": 7514
 									},
 									{
-										"Deaths": "6524",
-										"Recovered": "370300",
 										"Country_Region": "Saudi Arabia",
-										"Confirmed": "379474"
+										"Confirmed": 379474,
+										"Deaths": 6524,
+										"Recovered": 370300
 									},
 									{
-										"Deaths": "334",
-										"Recovered": "15065",
 										"Country_Region": "Uganda",
-										"Confirmed": "40452"
+										"Confirmed": 40452,
+										"Deaths": 334,
+										"Recovered": 15065
 									},
 									{
-										"Deaths": "437",
-										"Recovered": "37366",
 										"Country_Region": "Namibia",
-										"Confirmed": "39877"
+										"Confirmed": 39877,
+										"Deaths": 437,
+										"Recovered": 37366
 									},
 									{
-										"Deaths": "10046",
-										"Recovered": "317600",
 										"Country_Region": "Switzerland",
-										"Confirmed": "562290"
+										"Confirmed": 562290,
+										"Deaths": 10046,
+										"Recovered": 317600
 									},
 									{
-										"Deaths": "1116",
-										"Recovered": "77609",
 										"Country_Region": "Zambia",
-										"Confirmed": "82011"
+										"Confirmed": 82011,
+										"Deaths": 1116,
+										"Recovered": 77609
 									},
 									{
-										"Deaths": "2420",
-										"Recovered": "137785",
 										"Country_Region": "Ethiopia",
-										"Confirmed": "165029"
+										"Confirmed": 165029,
+										"Deaths": 2420,
+										"Recovered": 137785
 									},
 									{
-										"Deaths": "658",
-										"Recovered": "15211",
 										"Country_Region": "Eswatini",
-										"Confirmed": "17173"
+										"Confirmed": 17173,
+										"Deaths": 658,
+										"Recovered": 15211
 									},
 									{
-										"Deaths": "446",
-										"Recovered": "14159",
 										"Country_Region": "Jamaica",
-										"Confirmed": "25303"
+										"Confirmed": 25303,
+										"Deaths": 446,
+										"Recovered": 14159
 									},
 									{
-										"Deaths": "1687",
-										"Recovered": "78507",
 										"Country_Region": "Latvia",
-										"Confirmed": "90009"
+										"Confirmed": 90009,
+										"Deaths": 1687,
+										"Recovered": 78507
 									},
 									{
-										"Deaths": "3",
-										"Recovered": "182",
 										"Country_Region": "Brunei",
-										"Confirmed": "189"
+										"Confirmed": 189,
+										"Deaths": 3,
+										"Recovered": 182
 									},
 									{
-										"Deaths": "102",
-										"Recovered": "4317",
 										"Country_Region": "South Sudan",
-										"Confirmed": "8677"
+										"Confirmed": 8677,
+										"Deaths": 102,
+										"Recovered": 4317
 									},
 									{
-										"Deaths": "1310",
-										"Recovered": "391205",
 										"Country_Region": "United Arab Emirates",
-										"Confirmed": "408236"
+										"Confirmed": 408236,
+										"Deaths": 1310,
+										"Recovered": 391205
 									},
 									{
-										"Deaths": "43",
-										"Recovered": "3455",
 										"Country_Region": "Saint Lucia",
-										"Confirmed": "3843"
+										"Confirmed": 3843,
+										"Deaths": 43,
+										"Recovered": 3455
 									},
 									{
-										"Deaths": "93",
-										"Recovered": "15130",
 										"Country_Region": "Guinea",
-										"Confirmed": "16540"
+										"Confirmed": 16540,
+										"Deaths": 93,
+										"Recovered": 15130
 									},
 									{
-										"Deaths": "22212",
-										"Recovered": "837730",
 										"Country_Region": "Canada",
-										"Confirmed": "889551"
+										"Confirmed": 889551,
+										"Deaths": 22212,
+										"Recovered": 837730
 									},
 									{
-										"Deaths": "15",
-										"Recovered": "2648",
 										"Country_Region": "Seychelles",
-										"Confirmed": "2979"
+										"Confirmed": 2979,
+										"Deaths": 15,
+										"Recovered": 2648
 									},
 									{
-										"Deaths": "1471",
-										"Recovered": "83484",
 										"Country_Region": "Kyrgyzstan",
-										"Confirmed": "86506"
+										"Confirmed": 86506,
+										"Deaths": 1471,
+										"Recovered": 83484
 									},
 									{
-										"Deaths": "3185",
-										"Recovered": "94461",
 										"Country_Region": "North Macedonia",
-										"Confirmed": "106832"
+										"Confirmed": 106832,
+										"Deaths": 3185,
+										"Recovered": 94461
 									},
 									{
-										"Deaths": "0",
-										"Recovered": "2",
 										"Country_Region": "Samoa",
-										"Confirmed": "3"
+										"Confirmed": 3,
+										"Deaths": 0,
+										"Recovered": 2
 									},
 									{
-										"Deaths": "622",
-										"Recovered": "78802",
 										"Country_Region": "Uzbekistan",
-										"Confirmed": "80125"
+										"Confirmed": 80125,
+										"Deaths": 622,
+										"Recovered": 78802
 									},
 									{
-										"Deaths": "686",
-										"Recovered": "46294",
 										"Country_Region": "Mozambique",
-										"Confirmed": "62131"
+										"Confirmed": 62131,
+										"Deaths": 686,
+										"Recovered": 46294
 									},
 									{
-										"Deaths": "1634",
-										"Recovered": "83220",
 										"Country_Region": "Korea, South",
-										"Confirmed": "92471"
+										"Confirmed": 92471,
+										"Deaths": 1634,
+										"Recovered": 83220
 									},
 									{
-										"Deaths": "315",
-										"Recovered": "11926",
 										"Country_Region": "Belize",
-										"Confirmed": "12335"
+										"Confirmed": 12335,
+										"Deaths": 315,
+										"Recovered": 11926
 									},
 									{
-										"Deaths": "264325",
-										"Recovered": "9686024",
 										"Country_Region": "Brazil",
-										"Confirmed": "10938836"
+										"Confirmed": 10938836,
+										"Deaths": 264325,
+										"Recovered": 9686024
 									},
 									{
-										"Deaths": "152",
-										"Recovered": "4143",
 										"Country_Region": "Gambia",
-										"Confirmed": "4759"
+										"Confirmed": 4759,
+										"Deaths": 152,
+										"Recovered": 4143
 									},
 									{
-										"Deaths": "1874",
-										"Recovered": "87550",
 										"Country_Region": "Kenya",
-										"Confirmed": "108362"
+										"Confirmed": 108362,
+										"Deaths": 1874,
+										"Recovered": 87550
 									},
 									{
-										"Deaths": "2127",
-										"Recovered": "173732",
 										"Country_Region": "West Bank and Gaza",
-										"Confirmed": "194548"
+										"Confirmed": 194548,
+										"Deaths": 2127,
+										"Recovered": 173732
 									},
 									{
-										"Deaths": "5013",
-										"Recovered": "307256",
 										"Country_Region": "Lebanon",
-										"Confirmed": "393228"
+										"Confirmed": 393228,
+										"Deaths": 5013,
+										"Recovered": 307256
 									},
 									{
-										"Deaths": "21",
-										"Recovered": "355",
 										"Country_Region": "Antigua and Barbuda",
-										"Confirmed": "813"
+										"Confirmed": 813,
+										"Deaths": 21,
+										"Recovered": 355
 									},
 									{
-										"Deaths": "3888",
-										"Recovered": "180366",
 										"Country_Region": "Slovenia",
-										"Confirmed": "195086"
+										"Confirmed": 195086,
+										"Deaths": 3888,
+										"Recovered": 180366
 									},
 									{
-										"Deaths": "3162",
-										"Recovered": "196484",
 										"Country_Region": "Dominican Republic",
-										"Confirmed": "242660"
+										"Confirmed": 242660,
+										"Deaths": 3162,
+										"Recovered": 196484
 									},
 									{
-										"Deaths": "359",
-										"Recovered": "26760",
 										"Country_Region": "Botswana",
-										"Confirmed": "31746"
+										"Confirmed": 31746,
+										"Deaths": 359,
+										"Recovered": 26760
 									},
 									{
-										"Deaths": "8196",
-										"Recovered": "417136",
 										"Country_Region": "Japan",
-										"Confirmed": "437634"
+										"Confirmed": 437634,
+										"Deaths": 8196,
+										"Recovered": 417136
 									},
 									{
-										"Deaths": "21",
-										"Recovered": "183",
 										"Country_Region": "Tanzania",
-										"Confirmed": "509"
+										"Confirmed": 509,
+										"Deaths": 21,
+										"Recovered": 183
 									},
 									{
-										"Deaths": "652",
-										"Recovered": "52662",
 										"Country_Region": "Luxembourg",
-										"Confirmed": "56296"
+										"Confirmed": 56296,
+										"Deaths": 652,
+										"Recovered": 52662
 									},
 									{
-										"Deaths": "26",
-										"Recovered": "2301",
 										"Country_Region": "New Zealand",
-										"Confirmed": "2399"
+										"Confirmed": 2399,
+										"Deaths": 26,
+										"Recovered": 2301
 									},
 									{
-										"Deaths": "5228",
-										"Recovered": "117885",
 										"Country_Region": "Bosnia and Herzegovina",
-										"Confirmed": "135513"
+										"Confirmed": 135513,
+										"Deaths": 5228,
+										"Recovered": 117885
 									},
 									{
-										"Deaths": "251",
-										"Recovered": "9828",
 										"Country_Region": "Haiti",
-										"Confirmed": "12536"
+										"Confirmed": 12536,
+										"Deaths": 251,
+										"Recovered": 9828
 									},
 									{
-										"Deaths": "45159",
-										"Recovered": "1471608",
 										"Country_Region": "Poland",
-										"Confirmed": "1781345"
+										"Confirmed": 1781345,
+										"Deaths": 45159,
+										"Recovered": 1471608
 									},
 									{
-										"Deaths": "16512",
-										"Recovered": "730601",
 										"Country_Region": "Portugal",
-										"Confirmed": "809412"
+										"Confirmed": 809412,
+										"Deaths": 16512,
+										"Recovered": 730601
 									},
 									{
-										"Deaths": "909",
-										"Recovered": "22928",
 										"Country_Region": "Australia",
-										"Confirmed": "29034"
+										"Confirmed": 29034,
+										"Deaths": 909,
+										"Recovered": 22928
 									},
 									{
-										"Deaths": "551",
-										"Recovered": "32594",
 										"Country_Region": "Cameroon",
-										"Confirmed": "35714"
+										"Confirmed": 35714,
+										"Deaths": 551,
+										"Recovered": 32594
 									},
 									{
-										"Deaths": "16",
-										"Recovered": "846",
 										"Country_Region": "Papua New Guinea",
-										"Confirmed": "1492"
+										"Confirmed": 1492,
+										"Deaths": 16,
+										"Recovered": 846
 									},
 									{
-										"Deaths": "49",
-										"Recovered": "2668",
 										"Country_Region": "Guinea-Bissau",
-										"Confirmed": "3312"
+										"Confirmed": 3312,
+										"Deaths": 49,
+										"Recovered": 2668
 									},
 									{
-										"Deaths": "20854",
-										"Recovered": "754335",
 										"Country_Region": "Romania",
-										"Confirmed": "824995"
+										"Confirmed": 824995,
+										"Deaths": 20854,
+										"Recovered": 754335
 									},
 									{
-										"Deaths": "10593",
-										"Recovered": "212502",
 										"Country_Region": "Bulgaria",
-										"Confirmed": "259811"
+										"Confirmed": 259811,
+										"Deaths": 10593,
+										"Recovered": 212502
 									},
 									{
-										"Deaths": "0",
-										"Recovered": "14",
 										"Country_Region": "Solomon Islands",
-										"Confirmed": "18"
+										"Confirmed": 18,
+										"Deaths": 0,
+										"Recovered": 14
 									},
 									{
-										"Deaths": "8694",
-										"Recovered": "441309",
 										"Country_Region": "Austria",
-										"Confirmed": "472871"
+										"Confirmed": 472871,
+										"Deaths": 8694,
+										"Recovered": 441309
 									},
 									{
-										"Deaths": "3010",
-										"Recovered": "270828",
 										"Country_Region": "Nepal",
-										"Confirmed": "274655"
+										"Confirmed": 274655,
+										"Deaths": 3010,
+										"Recovered": 270828
 									},
 									{
-										"Deaths": "2833",
-										"Recovered": "187484",
 										"Country_Region": "Costa Rica",
-										"Confirmed": "206640"
+										"Confirmed": 206640,
+										"Deaths": 2833,
+										"Recovered": 187484
 									},
 									{
-										"Deaths": "10954",
-										"Recovered": "143575",
 										"Country_Region": "Egypt",
-										"Confirmed": "185922"
+										"Confirmed": 185922,
+										"Deaths": 10954,
+										"Recovered": 143575
 									},
 									{
-										"Deaths": "1894",
-										"Recovered": "56807",
 										"Country_Region": "El Salvador",
-										"Confirmed": "60800"
+										"Confirmed": 60800,
+										"Deaths": 1894,
+										"Recovered": 56807
 									},
 									{
-										"Deaths": "3180",
-										"Recovered": "245358",
 										"Country_Region": "Kazakhstan",
-										"Confirmed": "267657"
+										"Confirmed": 267657,
+										"Deaths": 3180,
+										"Recovered": 245358
 									},
 									{
-										"Deaths": "4542",
-										"Recovered": "0",
 										"Country_Region": "Serbia",
-										"Confirmed": "482397"
+										"Confirmed": 482397,
+										"Deaths": 4542,
+										"Recovered": 0
 									},
 									{
-										"Deaths": "143",
-										"Recovered": "11754",
 										"Country_Region": "Burkina Faso",
-										"Confirmed": "12153"
+										"Confirmed": 12153,
+										"Deaths": 143,
+										"Recovered": 11754
 									},
 									{
-										"Deaths": "50647",
-										"Recovered": "1439515",
 										"Country_Region": "South Africa",
-										"Confirmed": "1520206"
+										"Confirmed": 1520206,
+										"Deaths": 50647,
+										"Recovered": 1439515
 									},
 									{
-										"Deaths": "469",
-										"Recovered": "119047",
 										"Country_Region": "Bahrain",
-										"Confirmed": "126126"
+										"Confirmed": 126126,
+										"Deaths": 469,
+										"Recovered": 119047
 									},
 									{
-										"Deaths": "0",
-										"Recovered": "1",
 										"Country_Region": "Micronesia",
-										"Confirmed": "1"
+										"Confirmed": 1,
+										"Deaths": 0,
+										"Recovered": 1
 									},
 									{
-										"Deaths": "60412",
-										"Recovered": "2172418",
 										"Country_Region": "Colombia",
-										"Confirmed": "2273245"
+										"Confirmed": 2273245,
+										"Deaths": 60412,
+										"Recovered": 2172418
 									},
 									{
-										"Deaths": "15765",
-										"Recovered": "333045",
 										"Country_Region": "Hungary",
-										"Confirmed": "459816"
+										"Confirmed": 459816,
+										"Deaths": 15765,
+										"Recovered": 333045
 									},
 									{
-										"Deaths": "13205",
-										"Recovered": "559248",
 										"Country_Region": "Pakistan",
-										"Confirmed": "590508"
+										"Confirmed": 590508,
+										"Deaths": 13205,
+										"Recovered": 559248
 									},
 									{
-										"Deaths": "0",
-										"Recovered": "1",
 										"Country_Region": "Vanuatu",
-										"Confirmed": "1"
+										"Confirmed": 1,
+										"Deaths": 0,
+										"Recovered": 1
 									},
 									{
-										"Deaths": "10",
-										"Recovered": "588",
 										"Country_Region": "Mauritius",
-										"Confirmed": "639"
+										"Confirmed": 639,
+										"Deaths": 10,
+										"Recovered": 588
 									},
 									{
-										"Deaths": "4091",
-										"Recovered": "170468",
 										"Country_Region": "Moldova",
-										"Confirmed": "194605"
+										"Confirmed": 194605,
+										"Deaths": 4091,
+										"Recovered": 170468
 									},
 									{
-										"Deaths": "124654",
-										"Recovered": "11849",
 										"Country_Region": "United Kingdom",
-										"Confirmed": "4225906"
+										"Confirmed": 4225906,
+										"Deaths": 124654,
+										"Recovered": 11849
 									},
 									{
-										"Deaths": "35",
-										"Recovered": "1920",
 										"Country_Region": "Vietnam",
-										"Confirmed": "2501"
+										"Confirmed": 2501,
+										"Deaths": 35,
+										"Recovered": 1920
 									},
 									{
-										"Deaths": "13",
-										"Recovered": "699",
 										"Country_Region": "Diamond Princess",
-										"Confirmed": "712"
+										"Confirmed": 712,
+										"Deaths": 13,
+										"Recovered": 699
 									},
 									{
-										"Deaths": "358",
-										"Recovered": "6439",
 										"Country_Region": "Mali",
-										"Confirmed": "8560"
+										"Confirmed": 8560,
+										"Deaths": 358,
+										"Recovered": 6439
 									},
 									{
-										"Deaths": "15931",
-										"Recovered": "14687",
 										"Country_Region": "Netherlands",
-										"Confirmed": "1130694"
+										"Confirmed": 1130694,
+										"Deaths": 15931,
+										"Recovered": 14687
 									}
 								],
 								"schema": {
@@ -1219,16 +1219,16 @@
 				"name": "python"
 			},
 			"a365ComputeOptions": {
-				"id": "/subscriptions/9e5fd910-2fa6-4b1c-ad1a-596f02e9d94d/resourceGroups/azureDIY-RG-AUE/providers/Microsoft.Synapse/workspaces/azurediy-aue-sya/bigDataPools/azureDIY",
-				"name": "azureDIY",
+				"id": "/subscriptions/6f6081c0-3ae8-4f30-a576-96e46665aa5a/resourceGroups/azureDIY-aue-RG/providers/Microsoft.Synapse/workspaces/azurediy-aue-apu/bigDataPools/AzureDIY",
+				"name": "AzureDIY",
 				"type": "Spark",
-				"endpoint": "https://azurediy-aue-sya.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/azureDIY",
+				"endpoint": "https://azurediy-aue-apu.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/AzureDIY",
 				"auth": {
 					"type": "AAD",
 					"authResource": "https://dev.azuresynapse.net"
 				},
 				"sparkVersion": "2.4",
-				"nodeCount": 6,
+				"nodeCount": 3,
 				"cores": 4,
 				"memory": 28,
 				"automaticScaleJobs": false
@@ -1239,7 +1239,7 @@
 			{
 				"cell_type": "code",
 				"source": [
-					"account_name = \"azurediyauedls\"\r\n",
+					"account_name = \"azurediyaueadls\"\r\n",
 					"sourcezone = \"raw\"\r\n",
 					"sourcepath = \"csse_covid_19_daily_reports\"\r\n",
 					"sourcename = \"/03-06-2021.csv\"\r\n",
@@ -1248,7 +1248,7 @@
 					"targetname = \"LatestCovidData\"\r\n",
 					""
 				],
-				"execution_count": 8
+				"execution_count": 2
 			},
 			{
 				"cell_type": "code",
@@ -1274,7 +1274,7 @@
 					"#relative_path = path\r\n",
 					"adls_path = 'abfss://%s@%s.dfs.core.windows.net/%s' % (sourcezone, account_name, sourcepath)"
 				],
-				"execution_count": 9
+				"execution_count": 3
 			},
 			{
 				"cell_type": "code",
@@ -1294,7 +1294,7 @@
 					"covidRaw = spark.read.option(\"inferSchema\",True).option(\"header\",True).csv(adls_path + sourcename)\r\n",
 					""
 				],
-				"execution_count": 10
+				"execution_count": 4
 			},
 			{
 				"cell_type": "code",
@@ -1320,7 +1320,7 @@
 					"\r\n",
 					"display(covidlatest)"
 				],
-				"execution_count": 13
+				"execution_count": 5
 			},
 			{
 				"cell_type": "code",
@@ -1365,7 +1365,7 @@
 					"\r\n",
 					"covidlatest.write.mode(\"overwrite\").format(\"parquet\").save(target_folder_path)"
 				],
-				"execution_count": 14
+				"execution_count": 6
 			}
 		]
 	}

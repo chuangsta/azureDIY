@@ -1,0 +1,16 @@
+{
+	"name": "SQL script 1",
+	"properties": {
+		"content": {
+			"query": "Create schema tgt",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"poolName": "AzureDIYSQL",
+				"databaseName": "AzureDIYSQL"
+			}
+		},
+		"type": "SqlQuery"
+	}
+}
